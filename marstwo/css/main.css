@@ -136,4 +136,5 @@ th {
 
 td, th {
     padding: 10px;
+    vertical-align: top;
 }
