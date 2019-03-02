@@ -107,7 +107,7 @@ section .img-text {
 
 section .text-content {
     display: block;
-    width: 100%;
+    width: 96%;
     margin-top: 30px;
 }
 
@@ -117,13 +117,14 @@ section .text-content {
 
 
 /* table */
-.syllabus {
+.syllabus, .syllabus-intro {
     width: 100%;
     margin: auto;
     background: #edeeef;
     font-family: "Courier";
     font-size: 14px;
     padding: 50px;
+    padding-top: 25px;
 }
 
 th {
@@ -136,4 +137,13 @@ th {
 
 td, th {
     padding: 10px;
+}
+
+.syllabus td {
+    vertical-align: top;
+}
+
+.syllabus-intro {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 }
