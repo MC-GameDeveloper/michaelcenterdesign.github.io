@@ -115,7 +115,12 @@ section .text-content {
     margin-top: 0px;
 }
 
-
+section .text-content a{
+    text-decoration: none;
+}
+section .text-content a:hover{
+    color: #FF6347;
+}
 /* table */
 .syllabus, .syllabus-intro {
     width: 100%;
