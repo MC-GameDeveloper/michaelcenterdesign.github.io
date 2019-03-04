@@ -70,6 +70,11 @@ section {
     width: 96%; /* two cols of images */
     padding: 5px;
 }
+.gallery-col-threeFourth {
+    float: left;
+    width: 72   %; /* two cols of images */
+    padding: 5px;
+}
 
 .gallery-col-half {
     float: left;
@@ -85,7 +90,7 @@ section {
 
 .gallery-col-fourth {
     float: left;
-    width: 23%; /* two cols of images */
+    width: 24%; /* two cols of images */
     padding: 5px;
 }
 
@@ -151,4 +156,8 @@ td, th {
 .syllabus-intro {
     margin-bottom: 0px;
     padding-bottom: 0px;
+}
+
+#test2{
+    padding-left: 50px;
 }
