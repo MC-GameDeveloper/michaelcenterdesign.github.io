@@ -13,6 +13,7 @@ h1 {
     font-size: 30px;
     /* font-weight: bold; */
     text-decoration: none;
+    padding-bottom: 10px;
 }
 
 h2 {
@@ -70,29 +71,35 @@ section {
     width: 96%; /* two cols of images */
     padding: 5px;
 }
-.gallery-col-threeFourth {
+/* .gallery-col-threeFourth {
     float: left;
-    width: 72   %; /* two cols of images */
+    width: 72%;
+    padding: 5px;
+} */
+
+.gallery-col-half-left {
+    float: left;
+    width: 46%; /* two cols of images */
     padding: 5px;
 }
 
-.gallery-col-half {
-    float: left;
-    width: 48%; /* two cols of images */
+.gallery-col-half-right {
+    float: right;
+    width: 46%; /* two cols of images */
     padding: 5px;
 }
-
+/* 
 .gallery-col-third {
     float: left;
-    width: 32%; /* three cols of images */
+    width: 32%;
     padding: 5px;
 }
 
 .gallery-col-fourth {
     float: left;
-    width: 24%; /* two cols of images */
+    width: 24%;
     padding: 5px;
-}
+} */
 
 .gallery-row::after {
     content: "";
@@ -170,9 +177,19 @@ td, th {
 
 h1 {
     margin-bottom: 0px;
-    font-size: 200%;
+    font-size: 180%;
 }
 
 .summary {
-    font-size: 200%;
+    font-size: 180%;
+}
+
+/* end-notes */
+.end-notes ul {
+    list-style-type: none;
+}
+
+.excerpt {
+    padding-left: 10%;
+    padding-right: 10%;
 }
