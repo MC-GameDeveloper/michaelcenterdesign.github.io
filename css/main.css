@@ -1,24 +1,23 @@
 /* prod */
 body {
-    font-family: 'Source Sans Pro', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Inconsolata', monospace;
     font-size: 20px;
-    color: #232528;
+    color: #a6aaaf;
     width: 90%;
     min-width: 800px;
     margin-left: auto;
     margin-right: auto;
+    background-color: #232528;
 }
 
 h1 {
     font-size: 30px;
-    /* font-weight: bold; */
     text-decoration: none;
     padding-bottom: 10px;
 }
 
 h2 {
     font-size: 25px;
-    /* font-weight: normal; */
     text-decoration: none;
     margin-top: 80px;
 }
@@ -60,7 +59,7 @@ nav .subtitle {
 
 /* section */
 section {
-    width: 70%;
+    width: 65%;
     margin-left: auto;
     margin-right: auto;
     min-width: 800px;
@@ -71,6 +70,7 @@ section {
     width: 96%; /* two cols of images */
     padding: 5px;
 }
+
 /* .gallery-col-threeFourth {
     float: left;
     width: 72%;
