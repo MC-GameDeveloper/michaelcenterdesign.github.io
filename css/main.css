@@ -146,9 +146,12 @@ section .text-content a:hover{
     
 }
 
+.experience-title{
+
+    display:inline;
+}
 .experience-title img{
     width:100px;
-    display:inline;
 }
 .theIframe{
     position: relative;
