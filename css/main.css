@@ -10,22 +10,6 @@ body {
     background-color: #232528;
 }
 
-.theIframe{
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    padding-top: 56.25%;
-}
-iframe{
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-}
-
 h1 {
     font-size: 30px;
     text-decoration: none;
@@ -150,6 +134,29 @@ section .text-content a{
 section .text-content a:hover{
     color: #FF6347;
 }
+
+.theIframe{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%;
+}
+iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    overflow: show;
+}
+.fscontainer{width:96%;}
+.fullscreen{
+    width:36px;
+    float:right;
+    padding-top:0;
+}
 /* table */
 .syllabus, .syllabus-intro {
     width: 100%;
@@ -160,6 +167,8 @@ section .text-content a:hover{
     padding: 50px;
     padding-top: 25px;
 }
+
+
 
 th {
     border-bottom: .5px solid gray;
