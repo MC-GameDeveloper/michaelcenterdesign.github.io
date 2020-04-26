@@ -118,3 +118,10 @@ function attackRelease(i,x,y,z,t){
     ySynth[i].triggerAttackRelease(y,"8n",t);
     zSynth[i].triggerAttackRelease(z,"8n",t);
 }
+
+document.documentElement.addEventListener(
+    "mousedown", function(){
+      mouse_IsDown = true;
+      if (Tone.context.state !== 'running') {
+      Tone.context.resume();
+    }})
