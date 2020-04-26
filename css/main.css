@@ -143,6 +143,9 @@ section .experience-title{
     
     
 }
+.backgroundHover:hover{
+    background-color: #383838;
+}
 
 .experience-title img{
     /* position:relative; */
