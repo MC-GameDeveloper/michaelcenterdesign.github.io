@@ -109,10 +109,6 @@ section {
 .summary{
     font-size: 25px;
 }
-section img, .img-text, video {
-    width: 100%;
-    display: block;
-}
 
 section .img-text {
     font-size: 14px;
@@ -140,17 +136,16 @@ section .text-content a:hover{
     color: #FF6347;
 }
 
-.experience-title{
-    text-align: center;
+section .experience-title{
+    text-align: center;    
     color:rgb(218, 218, 218);
+    display:inline;
+    
     
 }
 
-.experience-title{
-
-    display:inline;
-}
 .experience-title img{
+    /* position:relative; */
     width:100px;
 }
 .theIframe{
@@ -178,56 +173,8 @@ iframe{
     padding-top:0;
 }
 .shapes p{
-    font-size: 10px;
+    font-size: 20px;
 }
-/* table */
-.syllabus, .syllabus-intro {
-    width: 100%;
-    margin: auto;
-    background: #edeeef;
-    font-family: "Courier";
-    font-size: 14px;
-    padding: 50px;
-    padding-top: 25px;
-}
-
-
-
-th {
-    border-bottom: .5px solid gray;
-}
-
-.firstcol {
-    border-right: .5px solid gray;
-}
-
-td, th {
-    padding: 10px;
-}
-
-.syllabus td {
-    vertical-align: top;
-}
-
-.syllabus-intro {
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-}
-
-#test2{
-    padding-left: 50px;
-}
-
-.authors {
-    color: darkgrey;
-    margin-top: 0px;
-}
-
-/* h1 {
-    margin-bottom: 0px;
-    font-size: 180%;
-} */
-
 
 /* end-notes */
 .end-notes ul {
