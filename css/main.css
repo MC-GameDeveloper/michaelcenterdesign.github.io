@@ -11,7 +11,7 @@ body {
 }
 
 h1 {
-    font-size: 30px;
+    font-size: 60px;
     text-decoration: none;
     padding-bottom: 10px;
 }
@@ -71,11 +71,11 @@ section {
     padding: 5px;
 }
 
-/* .gallery-col-threeFourth {
+.gallery-col-threeFourth {
     float: left;
-    width: 72%;
+    width: 71%;
     padding: 5px;
-} */
+}
 
 .gallery-col-half-left {
     float: left;
@@ -94,19 +94,21 @@ section {
     width: 32%;
     padding: 5px;
 }
-
+ */
 .gallery-col-fourth {
     float: left;
-    width: 24%;
+    width: 23%;
     padding: 5px;
-} */
+}
 
 .gallery-row::after {
     content: "";
     clear: both;
     display: table;
 }
-
+.summary{
+    font-size: 25px;
+}
 section img, .img-text, video {
     width: 100%;
     display: block;
@@ -116,7 +118,10 @@ section .img-text {
     font-size: 14px;
     margin-top: 0px;
 }
-
+section .title-content h1{
+    /* color: black; */
+    text-align: center;
+}
 section .text-content {
     display: block;
     width: 96%;
@@ -135,6 +140,16 @@ section .text-content a:hover{
     color: #FF6347;
 }
 
+.experience-title{
+    text-align: center;
+    color:rgb(218, 218, 218);
+    
+}
+
+.experience-title img{
+    width:100px;
+    display:inline;
+}
 .theIframe{
     position: relative;
     overflow: hidden;
@@ -151,11 +166,16 @@ iframe{
     height: 100%;
     overflow: show;
 }
-.fscontainer{width:96%;}
+.fscontainer{
+    width:96%;
+}
 .fullscreen{
     width:36px;
     float:right;
     padding-top:0;
+}
+.shapes p{
+    font-size: 10px;
 }
 /* table */
 .syllabus, .syllabus-intro {
@@ -200,14 +220,11 @@ td, th {
     margin-top: 0px;
 }
 
-h1 {
+/* h1 {
     margin-bottom: 0px;
     font-size: 180%;
-}
+} */
 
-.summary {
-    font-size: 180%;
-}
 
 /* end-notes */
 .end-notes ul {

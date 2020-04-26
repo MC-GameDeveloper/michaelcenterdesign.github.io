@@ -1,5 +1,4 @@
 <!doctype html>
-
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -7,9 +6,7 @@
   <link rel="stylesheet" href="css/main.css">
   <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;400;700&display=swap" rel="stylesheet">
 </head>
-
 <body>
-
   <header>
     <nav>
     </nav>
@@ -20,12 +17,7 @@
     <div class="title-content">
       <h1>[ERR]rational</h1>
     </div>
-    
-    <div class="gallery-row">
-      <div class="gallery-col-full">
-        <img src="assets/mars-time.png">
-      </div>
-    </div>
+
     <div class="text-content">
       <p class="summary">
         We are taught Mathematics as if it were a ruleset that governs all  
@@ -51,121 +43,158 @@
         of artwork to show the absurdity of the seperation between math and art.
       </p>
 
+      <!-- Unity Experience -->
+      <p class = "experience-title">
+        Use the <img src="Assets/wasd.png" > keys to move, and look around with your mouse.
+        <br>
+        This is best experienced at fullscreen with headphones.
+      </p>
       <div class = "theIframe"><iframe frameborder="0" src="Unity/index.html" allowfullscreen="" scrolling="no"></iframe></div>
-      <!-- <div class = "fscontainer"><img class = "fullscreen" src ="Unity/TemplateData/fullscreen.png" onclick="unityInstance.SetFullscreen(1)"></div> -->
-      <!-- <h2>Part 1: The Original Inquiry</h2>
-      <p>
-        The original goal of the Mars Two project was to explore humans'
-        ability to adapt to new cultural circumstances.
-        We conducted this thought experiment through an imagined world of
-        interplanetary human civilization, where our job as designers
-        was to aid interplanetary migrants.
-      </p>
+      <p></p>
 
-      <p>In this imagined world,
-        population experts forecast a 50 year limit to human population on Earth.
-        The only viable option for sustaining the human species is to fully
-        transition to Mars. A few small, exploratory settlements are
-        already established on Mars, including Mars Two— the successor
-        to a failed Mars One mission. 
-      </p>
-
-      <p>
-        By building this world, we presented several questions.
-        <ul>
-          <li>What might this mass interplanetary migration look like?</li>
-          <li>Beyond logistics, what cultural, emotional, psycological
-            challenges might humans face?</li>
-          <li>Which challenges are distinct to interplanetary migration,
-            and which have we seen before?</li>
-          <li>How might we intervene to ease these challenges?</li>
-        </ul>
-      </p>
-
-      <p>
-        From these original questions, we began thinking about the particular
-        challenge of Martian timekeeping and what it would mean for an
-        Earthling to adapt to a new system.
-        <br><br>
-        We were not interested in the "information" challenges related to time
-        (e.g. how to track flight patterns or send bits of data accurately).
-        Instead, we were interested in the cultural, emotional, and psychological
-        task of adapting to a new social construct; specifically, one as fundamental as time.
-      <p>
-
-      <p>As a means of exploring this question, we began designing materials
-        that would teach the Earth-to-Mars migrants the fundamentals of
-        metric timekeeping as it could exist on Mars.
-      </p>
-      
-      <h2>Part 2: The Lesson</h2>
-      <p>When we began writing our education materials, we did so with
-        a particular hope: that learners would
-        be able to adapt to the new system through immersion;
-        our primary job, we thought, was to <i>explain the system</i>
-        in logical terms that did not depend on specific
-        Earth references.
-        <br></br>
-        For example, we presented one Martian <u>day</u> as a <u>full rotation of
-        Mars about its axis</u> or <u>1,000 'beats'</u>. By design, this
-        explanation made no reference to the more familiar concepts of
-        an Earth day, hour, or second.
-      </p>
-      <div class="gallery-row">
-        <div class="gallery-col-half-left">
-            <img src="assets/Mars-Immigration-Syllabus-2.gif">
-            <p class="img-text">Timetelling is the first unit for a week's long
-              course that all Earth-to-Mars migrants will take. This image shows
-              an imagined syllabus for this course.
-            </p>
+      <!-- shapes and explanations -->
+      <!-- row 1 -->
+      <div class = "gallery-row">
+        <div class = "gallery-col-half-left" height = '100px'>
+          <div class = "gallery-row">
+            <div class = "gallery-col-fourth">
+              <!-- add threejs canvas here -->
+            </div>
+            <div class = "gallery-col-threeFourth">
+              <!-- add equations here -->
+              <p>
+                x = 100.0*sin(t*PI) * cos(t)<br>  
+                y = 100.0*sin(t*PI) * sin(t)<br>
+                z = 100.0*cos(t*PI)* cos(t)
+              </p>
+            </div>
+          </div>
         </div>
-        <div class="gallery-col-half-right">
-            <img src="assets/TimeKeepingall.png">
-            <p class="img-text">An infographic displays necessary information
-              to understand Martian time.</p>
+        <div class = "gallery-col-half-right">
+          <div class = "gallery-row">
+            <div class = "gallery-col-fourth">
+              <!-- add threejs canvas here -->
+            </div>
+            <div class = "gallery-col-threeFourth">
+              <!-- add equations here -->
+              <p>
+                x = 100.0*cos(t*PI) * sin(t * PI);<br>
+                y = cos(t*PI) * sin(t *PI);<br>
+                z = 100.0* sin(t * PI)*cos(t * PI);
+              </p>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="gallery-row">
-        <p>
-          From our play testing, one pattern emerged:
-          <p class="excerpt">
-              Tester: <i>But how long is a day?</i><br>
-              Administrator: <i>1,000 beats.</i><br>
-              Tester: <i>Yeah, but how long is that?</i><br>
-              Administrator: <i>It's one rotation of the planet.</i><br>
-              Tester: <i>Yeah, but...</i>
-          </p>
-          As adminstrators, we knew what the testers were asking.
-          They wanted to know how long a
-          Martian day was <i>in Earth terms</i>. They wanted to map the length
-          of something they felt (a schoolday, a night's sleep, a lunch break) to a Martian beat.
-          This unit translation was exactly what we'd planned to avoid.
-          <br><br>
-          After resisting this question multiple times, it became clear
-          that this question <i>was</i> the important moment.
-          We'd hit an insight, it just wasn't the one we planned to hit.
-          It might have even been the opposite.
-        </p>
 
-        <p>
-          In the case of timekeeping, our testing suggests
-          that mental models of time are not only (or even primarily) based
-          on a planetary scale. They appear to be based on daily, sensory experiences.
-          Asking a person to jump out of this footing towards something more abstract is a difficult ask.
-          <br><br>
-          If we want to intervene in order to aid cultural adaption, as was
-          our original goal, then this experience shows us that
-          it is worth first understanding the meaningful points of reference
-          from which people come.
-          <br><br>Presenting an internally logically sound alternative
-          does not sufficiently avoid the question: 'Yeah, but what does this mean for <i>me</i>?'
-          Nor should that be the goal.
-        </p>
+      <!-- row 2 -->
+      <div class = "gallery-row">
+        <div class = "gallery-col-half-left" height = '100px'>
+          <div class = "gallery-row">
+            <div class = "gallery-col-fourth">
+              <!-- add threejs canvas here -->
+            </div>
+            <div class = "gallery-col-threeFourth">
+              <!-- add equations here -->
+              <p>
+                x:100.0*sin(t*PI) * cos(t*PI)<br>
+                y:100.0*sin(t*PI) * sin(t * PI)<br>
+                z:100.0*cos(t*PI)* cos(t*PI)
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class = "gallery-col-half-right">
+          <div class = "gallery-row">
+            <div class = "gallery-col-fourth">
+              <!-- add threejs canvas here -->
+            </div>
+            <div class = "gallery-col-threeFourth">
+              <!-- add equations here -->
+              <p>
+                x:100.0*sin(t*PI) * cos(t)<br>  
+                y:100.0*sin(t*PI) * sin(t * PI)<br>
+                z:100.0*cos(t*PI)* cos(t)
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
-        
-    </p> -->
 
-    <div class="end-notes">
+       <!-- row 3 -->
+       <div class = "gallery-row">
+        <div class = "gallery-col-half-left" height = '100px'>
+          <div class = "gallery-row">
+            <div class = "gallery-col-fourth">
+              <!-- add threejs canvas here -->
+            </div>
+            <div class = "gallery-col-threeFourth">
+              <!-- add equations here -->
+              <p>
+                x:100.0*sin(t*PI) * cos(t)<br>  
+                y:100.0*sin(t*PI) * sin(t)<br>
+                z:100.0*cos(t*PI)* cos(t * PI)
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class = "gallery-col-half-right">
+          <div class = "gallery-row">
+            <div class = "gallery-col-fourth">
+              <!-- add threejs canvas here -->
+            </div>
+            <div class = "gallery-col-threeFourth">
+              <!-- add equations here -->
+              <p>
+                x = 100.0*floor(sin(t*PI)) * floor(cos(t))<br> 
+                y = 100.0*sin(t*PI) * floor(sin(t ))<br> 
+                z = 100.0*floor(cos(t*PI)) * floor(cos(t));
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- row 4 -->
+      <div class = "gallery-row">
+        <div class = "gallery-col-half-left" height = '100px'>
+          <div class = "gallery-row">
+            <div class = "gallery-col-fourth">
+              <!-- add threejs canvas here -->
+            </div>
+            <div class = "gallery-col-threeFourth">
+              <!-- add equations here -->
+              <p>
+                x:100.0*sin(t*PI) * cos(t)<br>  
+                y:100.0*sin(t*PI) * sin(t )* cos(t*2.)<br>
+                z:100.0*cos(t*PI)* cos(t * PI)
+
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class = "gallery-col-half-right">
+          <div class = "gallery-row">
+            <div class = "gallery-col-fourth">
+              <!-- add threejs canvas here -->
+            </div>
+            <div class = "gallery-col-threeFourth">
+              <!-- add equations here -->
+              <p>
+                x:100.0*sin(t*PI) * cos(t)  <br>
+                y:100.0*sin(t*PI) * sin(t*PI) *cos(-t*PI)<br>
+                z:100.0*cos(t*PI)* cos(t)
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+     
+
+      <!-- go into how it is made -->
+     
+
+    <!-- <div class="end-notes">
       </ul>
       <h2>Resources</h2>
         <p>
@@ -177,7 +206,7 @@
           <a href="https://www.uscis.gov/sites/default/files/USCIS/Office%20of%20Citizenship/Citizenship%20Resource%20Center%20Site/Publications/M-1166.pdf" target="_blank">
           U.S.A. Naturalization curriculum</a>
         </p>
-    </div> 
+    </div>  -->
   </section>
   <script src="js/main.js"></script>
 </body>
