@@ -52,7 +52,8 @@
         </p>
       </div>
       <div class = "theIframe"><iframe frameborder="0" src="Unity/index.html" allowfullscreen="" scrolling="no"></iframe></div>
-      <p></p>
+      
+      <div class = "experience-title"><p>Below are the equations and the audio/visuals that they generate. Click on each one to hear the audio.<br>Play different ones together and experience your own music.</p></div>
 
       <!-- shapes and explanations -->
       <!-- row 1 -->
@@ -65,10 +66,10 @@
             </div>
             <div class = "gallery-col-threeFourth" >
               <!-- add equations here -->
-              <p id="0" class="backgroundHover">
-                x = 100.0*sin(t*PI) * cos(t)<br>  
-                y = 100.0*sin(t*PI) * sin(t)<br>
-                z = 100.0*cos(t*PI)* cos(t)
+              <p class="equationDiv">
+                x: 100.0 * sin(t*PI) * cos(t)<br>  
+                y: 100.0 * sin(t*PI) * sin(t)<br>
+                z: 100.0 * cos(t*PI) * cos(t)
               </p>
             </div>
           </div>
@@ -80,10 +81,10 @@
             </div>
             <div class = "gallery-col-threeFourth">
               <!-- add equations here -->
-              <p id="1" class="backgroundHover">
-                x = 100.0*cos(t*PI) * sin(t * PI);<br>
-                y = cos(t*PI) * sin(t *PI);<br>
-                z = 100.0* sin(t * PI)*cos(t * PI);
+              <p class="equationDiv">
+                x: 100.0 * cos(t*PI) * sin(t*PI);<br>
+                y: cos(t*PI) * sin(t*PI);<br>
+                z: 100.0 * sin(t*PI) * cos(t*PI);
               </p>
             </div>
           </div>
@@ -99,10 +100,10 @@
             </div>
             <div class = "gallery-col-threeFourth">
               <!-- add equations here -->
-              <p id="2" class="backgroundHover">
-                x:100.0*sin(t*PI) * cos(t*PI)<br>
-                y:100.0*sin(t*PI) * sin(t * PI)<br>
-                z:100.0*cos(t*PI)* cos(t*PI)
+              <p class="equationDiv">
+                x: 100.0 * floor(sin(t*PI)) * floor(cos(t))<br>
+                y: 100.0 * sin(t*PI) * floor(sin(t))<br>
+                z: 100.0 * floor(cos(t*PI)) * floor(cos(t))
               </p>
             </div>
           </div>
@@ -114,10 +115,10 @@
             </div>
             <div class = "gallery-col-threeFourth">
               <!-- add equations here -->
-              <p id="3" class="backgroundHover">
-                x:100.0*sin(t*PI) * cos(t)<br>  
-                y:100.0*sin(t*PI) * sin(t * PI)<br>
-                z:100.0*cos(t*PI)* cos(t)
+              <p class="equationDiv">
+                x: 100.0 * sin(t*PI) * cos(t*(2*PI)) * 0.05<br>  
+                y: 100.0 * sin(t*PI) * 100.0 * sin(t*(2*PI))<br>
+                z: 100.0 * cos(t*PI) * cos(t*PI)
               </p>
             </div>
           </div>
@@ -133,10 +134,10 @@
             </div>
             <div class = "gallery-col-threeFourth">
               <!-- add equations here -->
-              <p id="4" class="backgroundHover">
-                x:100.0*sin(t*PI) * cos(t)<br>  
-                y:100.0*sin(t*PI) * sin(t)<br>
-                z:100.0*cos(t*PI)* cos(t * PI)
+              <p class="equationDiv">
+                x: 100.0 * sin(t*(2*PI)) * cos(t)<br>  
+                y: 100.0 * sin(t*PI) * sin(t)<br>
+                z: 100.0 * cos(t*PI) * 25.0 *  cos(t * (2*PI))
               </p>
             </div>
           </div>
@@ -148,10 +149,10 @@
             </div>
             <div class = "gallery-col-threeFourth">
               <!-- add equations here -->
-              <p id="5" class="backgroundHover">
-                x = 100.0*floor(sin(t*PI)) * floor(cos(t))<br> 
-                y = 100.0*sin(t*PI) * floor(sin(t ))<br> 
-                z = 100.0*floor(cos(t*PI)) * floor(cos(t));
+              <p class="equationDiv">
+                x: 100.0 * cos(t*PI) * 10.0 * sin(t*PI)<br> 
+                y: 0.5 * cos(t*(2*PI)) * .05 * sin(t*(2*PI))<br> 
+                z: 100.0 * sin(t*PI) * cos(t*PI);
               </p>
             </div>
           </div>
@@ -167,10 +168,10 @@
             </div>
             <div class = "gallery-col-threeFourth">
               <!-- add equations here -->
-              <p id="6" class="backgroundHover">
-                x:100.0*sin(t*PI) * cos(t)<br>  
-                y:100.0*sin(t*PI) * sin(t )* cos(t*2.)<br>
-                z:100.0*cos(t*PI)* cos(t * PI)
+              <p class="equationDiv">
+                x: cos(t*(2*PI)) * 500.0 * sin(t*(2*PI)) / (t%3)<br>  
+                y: 5.0 * cos(t*PI) * 100.0 * sin(t*PI)<br>
+                z: 0.5 * sin(t*PI) * 0.5 * cos(t*PI)
 
               </p>
             </div>
@@ -183,10 +184,10 @@
             </div>
             <div class = "gallery-col-threeFourth">
               <!-- add equations here -->
-              <p id="7" class="backgroundHover">
-                x:100.0*sin(t*PI) * cos(t)  <br>
-                y:100.0*sin(t*PI) * sin(t*PI) *cos(-t*PI)<br>
-                z:100.0*cos(t*PI)* cos(t)
+              <p class="equationDiv">
+                x: 100.0 * cos(t*PI) * 10.0 * tan(t*PI)<br>
+                y: 100.0 * cos(t*PI) * sin(t*PI)<br>
+                z: 100.0 * tan(t*PI) * cos(t*PI)
               </p>
             </div>
           </div>

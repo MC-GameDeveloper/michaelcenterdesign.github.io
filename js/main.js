@@ -12,7 +12,7 @@ let songNames = [one1Song, one2Song, two1Song, two2Song, three1Song, three2Song,
 let isPlaying = [false,false,false,false,false,false,false,false];
 
 //all classes in the div that have equations w/in them
-var equationDivs = document.getElementsByClassName("backgroundHover");
+var equationDivs = document.getElementsByClassName("equationDiv");
 
 window.onload = function(){setup();}
 function setup(){
@@ -54,63 +54,69 @@ for (var i = 0; i < songNames.length; i++) {
 }
 
 //the equations that generate the sound 
+//Confirmed
 function one1Song(t){
-    console.log(t);
     let xFreq = 100.0*Math.sin(t*PI) * Math.cos(t); 
     let yFreq = 100.0*Math.sin(t*PI) * Math.sin(t);
     let zFreq = 100.0*Math.cos(t*PI)* Math.cos(t);
-    attackRelease(0,xFreq,yFreq,zFreq,t)
+    attackRelease(0,xFreq,yFreq,zFreq,t);
 }
-
+//Confirmed
 function one2Song(t){
     let xFreq = 100.0*Math.cos(t*PI) * Math.sin(t * PI);
     let yFreq = Math.cos(t*PI) * Math.sin(t *PI);
     let zFreq = 100.0* Math.sin(t * PI)*Math.cos(t * PI);
-    attackRelease(1,xFreq,yFreq,zFreq,t)
+    attackRelease(1,xFreq,yFreq,zFreq,t);
 
 }
-
+//Confirmed
 function two1Song(t){
-    let xFreq = 100.0*Math.cos(t*PI) * Math.sin(t * PI);
-    let yFreq = Math.cos(t*PI) * Math.sin(t *PI);
-    let zFreq = 100.0* Math.sin(t * PI)*Math.cos(t * PI);
-    attackRelease(2,xFreq,yFreq,zFreq,t)
+    let xFreq = 100.0*Math.floor(Math.sin(t*PI)) * Math.floor(Math.cos(t)); 
+    let yFreq = 100.0*Math.sin(t*PI) * Math.floor(Math.sin(t)); 
+    let zFreq = 100.0*Math.floor(Math.cos(t*PI)) * Math.floor(Math.cos(t));
+    attackRelease(3,xFreq,yFreq,zFreq,t);
 }
-
+//Confirmed
 function two2Song(t){
-    let xFreq = 100.0*Math.cos(t*PI) * Math.sin(t * PI);
-    let yFreq = Math.cos(t*PI) * Math.sin(t *PI);
-    let zFreq = 100.0* Math.sin(t * PI)*Math.cos(t * PI);
+    let xFreq = 100.0*Math.sin(t*PI) * Math.cos(t*(2*PI)) * 0.05;  
+    let yFreq = 100.0*Math.sin(t*PI) * 100.0*Math.sin(t * (2*PI));
+    let zFreq = 100.0*Math.cos(t*PI)* Math.sin(t*PI);
     attackRelease(3,xFreq,yFreq,zFreq,t)
 }
 
+//Confirmed
 function three1Song(t){
-    let xFreq = 100.0*Math.cos(t*PI) * Math.sin(t * PI);
-    let yFreq = Math.cos(t*PI) * Math.sin(t *PI);
-    let zFreq = 100.0* Math.sin(t * PI)*Math.cos(t * PI);
-    attackRelease(4,xFreq,yFreq,zFreq,t)
+    let xFreq = 100.0*Math.sin(t*(2*PI)) * Math.cos(t); 
+    let yFreq = 100.0*Math.sin(t*PI) * Math.sin(t);
+    let zFreq = 100.0*Math.cos(t*PI)* 25.0 * Math.cos(t * (2*PI));
+    attackRelease(4,xFreq,yFreq,zFreq,t);
 }
 
+//Confirmed
 function three2Song(t){
-    let xFreq = 100.0*Math.cos(t*PI) * Math.sin(t * PI);
-    let yFreq = Math.cos(t*PI) * Math.sin(t *PI);
+    let xFreq = 100.0*Math.cos(t*PI) * 10.0 * Math.sin(t * PI);
+    let yFreq = 0.5 * Math.cos(t*(2*PI)) * 0.5 * Math.sin(t *(2*PI));
     let zFreq = 100.0* Math.sin(t * PI)*Math.cos(t * PI);
     attackRelease(5,xFreq,yFreq,zFreq,t)
 }
 
+//Confirmed
 function four1Song(t){
-    let xFreq = 100.0*Math.cos(t*PI) * Math.sin(t * PI);
-    let yFreq = Math.cos(t*PI) * Math.sin(t *PI);
-    let zFreq = 100.0* Math.sin(t * PI)*Math.cos(t * PI);
+    let xFreq = Math.cos(t*(2*PI)) * 500.0 *  Math.sin(t * (2*PI)) / (t%3);
+    let yFreq = 5.0 * Math.cos(t*PI) * 100.0 * Math.sin(t *PI);
+    let zFreq = 0.5 * Math.sin(t * PI) * 0.5 * Math.cos(t * PI);
     attackRelease(6,xFreq,yFreq,zFreq,t)
 }
 
 function four2Song(t){
-    let xFreq = 100.0*Math.cos(t*PI) * Math.sin(t * PI);
-    let yFreq = Math.cos(t*PI) * Math.sin(t *PI);
-    let zFreq = 100.0* Math.sin(t * PI)*Math.cos(t * PI);
+    let xFreq = 100.0*Math.cos(t*PI) * 10.0 *  Math.tan(t * PI) ;
+    let yFreq = 100.0 * Math.cos(t*PI) * Math.sin(t *PI);
+    let zFreq = 100.0* Math.tan(t * PI)*Math.cos(t * PI);
     attackRelease(7,xFreq,yFreq,zFreq,t)
 }
+
+
+
 
 //the attack release function for each synth 
 function attackRelease(i,x,y,z,t){
@@ -119,6 +125,9 @@ function attackRelease(i,x,y,z,t){
     zSynth[i].triggerAttackRelease(z,"8n",t);
 }
 
+
+
+//google chrome bullshit
 document.documentElement.addEventListener(
     "mousedown", function(){
       mouse_IsDown = true;
