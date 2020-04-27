@@ -109,9 +109,9 @@ function four1Song(t){
 }
 
 function four2Song(t){
-    let xFreq = 100.0*Math.cos(t*PI) * 10.0 *  Math.tan(t * PI) ;
+    let xFreq = 100.0 * Math.cos(t*PI) * 10.0 *  Math.tan(t * PI) ;
     let yFreq = 100.0 * Math.cos(t*PI) * Math.sin(t *PI);
-    let zFreq = 100.0* Math.tan(t * PI)*Math.cos(t * PI);
+    let zFreq = 100.0 * Math.tan(t * PI)*Math.cos(t * PI);
     attackRelease(7,xFreq,yFreq,zFreq,t)
 }
 

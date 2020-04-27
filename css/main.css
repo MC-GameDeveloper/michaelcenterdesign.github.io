@@ -1,4 +1,3 @@
-/* prod */
 body {
     font-family: 'Inconsolata', monospace;
     font-size: 20px;
@@ -8,6 +7,11 @@ body {
     margin-left: auto;
     margin-right: auto;
     background-color: #232528;
+}
+canvas {
+    display: block;
+    width:100%;
+    height: auto;
 }
 
 h1 {
@@ -149,7 +153,6 @@ section .experience-title{
 }
 
 .experience-title img{
-    /* position:relative; */
     width:100px;
 }
 .theIframe{
@@ -168,14 +171,7 @@ iframe{
     height: 100%;
     overflow: show;
 }
-.fscontainer{
-    width:96%;
-}
-.fullscreen{
-    width:36px;
-    float:right;
-    padding-top:0;
-}
+
 .shapes p{
     font-size: 14px;
 }

@@ -5,6 +5,7 @@
   <title>[ERR]rational</title>
   <link rel="stylesheet" href="css/main.css">
   <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;400;700&display=swap" rel="stylesheet">
+  <script src="/three.js"></script>
 </head>
 <body>
   <header>
@@ -58,13 +59,15 @@
       <!-- shapes and explanations -->
       <!-- row 1 -->
     <div class = "shapes"> 
+      <canvas id="myCanvas"></canvas>
       <div class = "gallery-row">
         <div class = "gallery-col-half-left" height = '100px'>
           <div class = "gallery-row">
             <div class = "gallery-col-fourth">
               <!-- add threejs canvas here -->
             </div>
-            <div class = "gallery-col-threeFourth" >
+            <div class = "gallery-col-threeFourth" ></div>
+
               <!-- add equations here -->
               <p class="equationDiv">
                 x: 100.0 * sin(t*PI) * cos(t)<br>  
