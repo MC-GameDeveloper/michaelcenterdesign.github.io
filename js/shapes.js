@@ -45,7 +45,7 @@ function main() {
       const {scene, camera, controls} = makeScene(elem);
 
       const objLoader = new OBJLoader2();
-      objLoader.load('../Assets/UnityBasic.obj', (root) => {
+      objLoader.load('../Assets/oneOne.obj', (root) => {
       scene.add(root);
       });
       // scene.add(mesh);
@@ -61,7 +61,7 @@ function main() {
     'oneTwo': (elem) => {
       const {scene, camera, controls} = makeScene(elem);
       const objLoader = new OBJLoader2();
-      objLoader.load('../Assets/UnityBasic.obj', (root) => {
+      objLoader.load('../Assets/oneOne.obj', (root) => {
       scene.add(root);
       });
       return (time, rect) => {
@@ -76,7 +76,7 @@ function main() {
     'twoOne': (elem) => {
         const {scene, camera, controls} = makeScene(elem);
         const objLoader = new OBJLoader2();
-        objLoader.load('../Assets/UnityBasic.obj', (root) => {
+        objLoader.load('../Assets/oneOne.obj', (root) => {
         scene.add(root);
         });
         return (time, rect) => {
@@ -91,7 +91,7 @@ function main() {
       'TwoTwo': (elem) => {
         const {scene, camera, controls} = makeScene(elem);
         const objLoader = new OBJLoader2();
-        objLoader.load('../Assets/UnityBasic.obj', (root) => {
+        objLoader.load('../Assets/oneOne.obj', (root) => {
         scene.add(root);
         });
         return (time, rect) => {
@@ -106,7 +106,7 @@ function main() {
       'threeOne': (elem) => {
         const {scene, camera, controls} = makeScene(elem);
         const objLoader = new OBJLoader2();
-        objLoader.load('../Assets/UnityBasic.obj', (root) => {
+        objLoader.load('../Assets/oneOne.obj', (root) => {
         scene.add(root);
         });
         return (time, rect) => {
@@ -121,7 +121,7 @@ function main() {
       'threeTwo': (elem) => {
         const {scene, camera, controls} = makeScene(elem);
         const objLoader = new OBJLoader2();
-        objLoader.load('../Assets/UnityBasic.obj', (root) => {
+        objLoader.load('../Assets/oneOne.obj', (root) => {
         scene.add(root);
         });
         return (time, rect) => {
@@ -136,7 +136,7 @@ function main() {
       'fourOne': (elem) => {
         const {scene, camera, controls} = makeScene(elem);
         const objLoader = new OBJLoader2();
-        objLoader.load('../Assets/UnityBasic.obj', (root) => {
+        objLoader.load('../Assets/oneOne.obj', (root) => {
         scene.add(root);
         });
         return (time, rect) => {
@@ -151,7 +151,7 @@ function main() {
       'fourTwo': (elem) => {
         const {scene, camera, controls} = makeScene(elem);
         const objLoader = new OBJLoader2();
-        objLoader.load('../Assets/UnityBasic.obj', (root) => {
+        objLoader.load('../Assets/oneOne.obj', (root) => {
         scene.add(root);
         });
         return (time, rect) => {
