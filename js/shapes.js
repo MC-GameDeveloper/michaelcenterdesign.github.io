@@ -20,7 +20,7 @@ function main() {
     const near = 0.1;
     const far = 5;
     const camera = new THREE.PerspectiveCamera(fov, aspect, near, far);
-    camera.position.set(0, 1, 2);
+    camera.position.set(0, 0, 2);
     camera.lookAt(0, 0, 0);
     scene.add(camera);
 
@@ -43,15 +43,11 @@ function main() {
   const sceneInitFunctionsByName = {
     'oneOne': (elem) => {
       const {scene, camera, controls} = makeScene(elem);
-      // const geometry = new THREE.BoxBufferGeometry(1, 1, 1);
-      // const material = new THREE.MeshPhongMaterial({color: 'red'});
-      // const mesh = new THREE.Mesh(geometry, material);
+
       const objLoader = new OBJLoader2();
       objLoader.load('../Assets/UnityBasic.obj', (root) => {
       scene.add(root);
-      root.rotation.y = 0.001 * speed;
-      root.scale
-    });
+      });
       // scene.add(mesh);
       return (time, rect) => {
        
@@ -64,18 +60,12 @@ function main() {
     },
     'oneTwo': (elem) => {
       const {scene, camera, controls} = makeScene(elem);
-      const radius = .8;
-      const widthSegments = 4;
-      const heightSegments = 2;
-      const geometry = new THREE.SphereBufferGeometry(radius, widthSegments, heightSegments);
-      const material = new THREE.MeshPhongMaterial({
-        color: 'blue',
-        flatShading: true,
+      const objLoader = new OBJLoader2();
+      objLoader.load('../Assets/UnityBasic.obj', (root) => {
+      scene.add(root);
       });
-      const mesh = new THREE.Mesh(geometry, material);
-      scene.add(mesh);
       return (time, rect) => {
-        mesh.rotation.y = time * speed;
+        
         camera.aspect = rect.width / rect.height;
         camera.updateProjectionMatrix();
         controls.handleResize();
@@ -85,18 +75,12 @@ function main() {
     },
     'twoOne': (elem) => {
         const {scene, camera, controls} = makeScene(elem);
-        const radius = .8;
-        const widthSegments = 4;
-        const heightSegments = 2;
-        const geometry = new THREE.SphereBufferGeometry(radius, widthSegments, heightSegments);
-        const material = new THREE.MeshPhongMaterial({
-          color: 'blue',
-          flatShading: true,
+        const objLoader = new OBJLoader2();
+        objLoader.load('../Assets/UnityBasic.obj', (root) => {
+        scene.add(root);
         });
-        const mesh = new THREE.Mesh(geometry, material);
-        scene.add(mesh);
         return (time, rect) => {
-          mesh.rotation.y = time * speed;
+          
           camera.aspect = rect.width / rect.height;
           camera.updateProjectionMatrix();
           controls.handleResize();
@@ -106,18 +90,12 @@ function main() {
       },
       'TwoTwo': (elem) => {
         const {scene, camera, controls} = makeScene(elem);
-        const radius = .8;
-        const widthSegments = 4;
-        const heightSegments = 2;
-        const geometry = new THREE.SphereBufferGeometry(radius, widthSegments, heightSegments);
-        const material = new THREE.MeshPhongMaterial({
-          color: 'blue',
-          flatShading: true,
+        const objLoader = new OBJLoader2();
+        objLoader.load('../Assets/UnityBasic.obj', (root) => {
+        scene.add(root);
         });
-        const mesh = new THREE.Mesh(geometry, material);
-        scene.add(mesh);
         return (time, rect) => {
-          mesh.rotation.y = time * speed;
+          
           camera.aspect = rect.width / rect.height;
           camera.updateProjectionMatrix();
           controls.handleResize();
@@ -127,18 +105,12 @@ function main() {
       },
       'threeOne': (elem) => {
         const {scene, camera, controls} = makeScene(elem);
-        const radius = .8;
-        const widthSegments = 4;
-        const heightSegments = 2;
-        const geometry = new THREE.SphereBufferGeometry(radius, widthSegments, heightSegments);
-        const material = new THREE.MeshPhongMaterial({
-          color: 'blue',
-          flatShading: true,
+        const objLoader = new OBJLoader2();
+        objLoader.load('../Assets/UnityBasic.obj', (root) => {
+        scene.add(root);
         });
-        const mesh = new THREE.Mesh(geometry, material);
-        scene.add(mesh);
         return (time, rect) => {
-          mesh.rotation.y = time * speed;
+          
           camera.aspect = rect.width / rect.height;
           camera.updateProjectionMatrix();
           controls.handleResize();
@@ -148,18 +120,12 @@ function main() {
       },
       'threeTwo': (elem) => {
         const {scene, camera, controls} = makeScene(elem);
-        const radius = .8;
-        const widthSegments = 4;
-        const heightSegments = 2;
-        const geometry = new THREE.SphereBufferGeometry(radius, widthSegments, heightSegments);
-        const material = new THREE.MeshPhongMaterial({
-          color: 'blue',
-          flatShading: true,
+        const objLoader = new OBJLoader2();
+        objLoader.load('../Assets/UnityBasic.obj', (root) => {
+        scene.add(root);
         });
-        const mesh = new THREE.Mesh(geometry, material);
-        scene.add(mesh);
         return (time, rect) => {
-          mesh.rotation.y = time * speed;
+          
           camera.aspect = rect.width / rect.height;
           camera.updateProjectionMatrix();
           controls.handleResize();
@@ -169,18 +135,12 @@ function main() {
       },
       'fourOne': (elem) => {
         const {scene, camera, controls} = makeScene(elem);
-        const radius = .8;
-        const widthSegments = 4;
-        const heightSegments = 2;
-        const geometry = new THREE.SphereBufferGeometry(radius, widthSegments, heightSegments);
-        const material = new THREE.MeshPhongMaterial({
-          color: 'blue',
-          flatShading: true,
+        const objLoader = new OBJLoader2();
+        objLoader.load('../Assets/UnityBasic.obj', (root) => {
+        scene.add(root);
         });
-        const mesh = new THREE.Mesh(geometry, material);
-        scene.add(mesh);
         return (time, rect) => {
-          mesh.rotation.y = time * speed;
+          
           camera.aspect = rect.width / rect.height;
           camera.updateProjectionMatrix();
           controls.handleResize();
@@ -190,18 +150,12 @@ function main() {
       },
       'fourTwo': (elem) => {
         const {scene, camera, controls} = makeScene(elem);
-        const radius = .8;
-        const widthSegments = 4;
-        const heightSegments = 2;
-        const geometry = new THREE.SphereBufferGeometry(radius, widthSegments, heightSegments);
-        const material = new THREE.MeshPhongMaterial({
-          color: 'blue',
-          flatShading: true,
+        const objLoader = new OBJLoader2();
+        objLoader.load('../Assets/UnityBasic.obj', (root) => {
+        scene.add(root);
         });
-        const mesh = new THREE.Mesh(geometry, material);
-        scene.add(mesh);
         return (time, rect) => {
-          mesh.rotation.y = time * speed;
+          
           camera.aspect = rect.width / rect.height;
           camera.updateProjectionMatrix();
           controls.handleResize();
