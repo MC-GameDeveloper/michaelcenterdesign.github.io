@@ -47,7 +47,7 @@ function main() {
       // const material = new THREE.MeshPhongMaterial({color: 'red'});
       // const mesh = new THREE.Mesh(geometry, material);
       const objLoader = new OBJLoader2();
-      objLoader.load('../Models/UnityBasic.obj', (root) => {
+      objLoader.load('../Assets/UnityBasic.obj', (root) => {
       scene.add(root);
       root.rotation.y = 0.001 * speed;
       root.scale
