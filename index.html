@@ -5,7 +5,7 @@
   <title>[ERR]rational</title>
   <link rel="stylesheet" href="css/main.css">
   <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;400;700&display=swap" rel="stylesheet">
-  <script src="/three.js"></script>
+  <!-- <script src="/three.js"></script> -->
 </head>
 <body>
   <header>
@@ -61,12 +61,12 @@
     <div class = "shapes"> 
       <canvas id="myCanvas"></canvas>
       <div class = "gallery-row">
-        <div class = "gallery-col-half-left" height = '100px'>
+        <div class = "gallery-col-half-left">
           <div class = "gallery-row">
-            <div class = "gallery-col-fourth">
+            <div data-diagram="oneOne" class = "gallery-col-fourth">
               <!-- add threejs canvas here -->
             </div>
-            <div class = "gallery-col-threeFourth" ></div>
+            <div class = "gallery-col-threeFourth" >
 
               <!-- add equations here -->
               <p class="equationDiv">
@@ -79,7 +79,7 @@
         </div>
         <div class = "gallery-col-half-right">
           <div class = "gallery-row">
-            <div class = "gallery-col-fourth">
+            <div data-diagram="oneTwo" class = "gallery-col-fourth">
               <!-- add threejs canvas here -->
             </div>
             <div class = "gallery-col-threeFourth">
@@ -98,7 +98,7 @@
       <div class = "gallery-row">
         <div class = "gallery-col-half-left" height = '100px'>
           <div class = "gallery-row">
-            <div class = "gallery-col-fourth">
+            <div data-diagram="twoOne" class = "gallery-col-fourth">
               <!-- add threejs canvas here -->
             </div>
             <div class = "gallery-col-threeFourth">
@@ -113,7 +113,7 @@
         </div>
         <div class = "gallery-col-half-right">
           <div class = "gallery-row">
-            <div class = "gallery-col-fourth">
+            <div data-diagram="TwoTwo" class = "gallery-col-fourth">
               <!-- add threejs canvas here -->
             </div>
             <div class = "gallery-col-threeFourth">
@@ -132,7 +132,7 @@
        <div class = "gallery-row">
         <div class = "gallery-col-half-left" height = '100px'>
           <div class = "gallery-row">
-            <div class = "gallery-col-fourth">
+            <div data-diagram="threeOne" class = "gallery-col-fourth">
               <!-- add threejs canvas here -->
             </div>
             <div class = "gallery-col-threeFourth">
@@ -147,7 +147,7 @@
         </div>
         <div class = "gallery-col-half-right">
           <div class = "gallery-row">
-            <div class = "gallery-col-fourth">
+            <div data-diagram="threeTwo" class = "gallery-col-fourth">
               <!-- add threejs canvas here -->
             </div>
             <div class = "gallery-col-threeFourth">
@@ -166,7 +166,7 @@
       <div class = "gallery-row">
         <div class = "gallery-col-half-left" height = '100px'>
           <div class = "gallery-row">
-            <div class = "gallery-col-fourth">
+            <div data-diagram="fourOne" class = "gallery-col-fourth">
               <!-- add threejs canvas here -->
             </div>
             <div class = "gallery-col-threeFourth">
@@ -182,7 +182,7 @@
         </div>
         <div class = "gallery-col-half-right">
           <div class = "gallery-row">
-            <div class = "gallery-col-fourth">
+            <div data-diagram="fourTwo" class = "gallery-col-fourth">
               <!-- add threejs canvas here -->
             </div>
             <div class = "gallery-col-threeFourth">
@@ -215,7 +215,9 @@
         </p>
     </div>  -->
   </section>
-  <script src="js/main.js"></script>
+  <script src="js/audio.js"></script>
+  <script src="js/shapes.js" type="module"></script>
   <script src="js/Tone.js"></script>
+  <!-- <script src="js/OBJLoader.js.js"></script> -->
 </body>
 </html>
