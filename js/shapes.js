@@ -1,31 +1,31 @@
 import * as THREE from 'https://threejsfundamentals.org/threejs/resources/threejs/r115/build/three.module.js';
 import {TrackballControls} from 'https://threejsfundamentals.org/threejs/resources/threejs/r115/examples/jsm/controls/TrackballControls.js';
 import {OBJLoader2} from 'https://threejsfundamentals.org/threejs/resources/threejs/r115/examples/jsm/loaders/OBJLoader2.js';
-var aws= require('aws-sdk');
-const config = require('./config.json');
+// const aws = require(['./node_modules/aws-sdk/clients/s3']);
+// const config = require(['./config.json']);
 
-(async function(){
+// (async function(){
 
-  try{
-    aws.config.setPromisesDependency();
-    aws.config.update({
+//   try{
+//     aws.config.setPromisesDependency();
+//     aws.config.update({
 
-      accessKeyId:config.aws.accessKeyId,
-      secretAccessKey:config.aws.secretAccessKey,
-      region: 'us-east-2'
-    }).promise();
+//       accessKeyId:config.aws.accessKeyId,
+//       secretAccessKey:config.aws.secretAccessKey,
+//       region: 'us-east-2'
+//     }).promise();
 
-    const s3 = new aws.S3();
-    const response = await s3.listObjectsV2({
-      Bucket:"errationalshapes"
-    });
-    console.log(response);
+//     const s3 = new aws.S3();
+//     const response = await s3.listObjectsV2({
+//       Bucket:"errationalshapes"
+//     });
+//     console.log(response);
 
-  }catch(e){
-    console.log("our error", e);
-  }
+//   }catch(e){
+//     console.log("our error", e);
+//   }
 
-})();
+// })();
 
 
 function main() {
@@ -86,7 +86,7 @@ function main() {
     'oneTwo': (elem) => {
       const {scene, camera, controls} = makeScene(elem);
       const objLoader = new OBJLoader2();
-      objLoader.load('../Assets/oneTwo.obj', (root) => {
+      objLoader.load('https://errationalshapes.s3.us-east-2.amazonaws.com/oneTwo.obj', (root) => {
       scene.add(root);
       });
       return (time, rect) => {
@@ -101,7 +101,7 @@ function main() {
     'twoOne': (elem) => {
         const {scene, camera, controls} = makeScene(elem);
         const objLoader = new OBJLoader2();
-        objLoader.load('../Assets/twoOne.obj', (root) => {
+        objLoader.load('https://errationalshapes.s3.us-east-2.amazonaws.com/twoOne.obj', (root) => {
         scene.add(root);
         });
         return (time, rect) => {
@@ -116,7 +116,7 @@ function main() {
       'TwoTwo': (elem) => {
         const {scene, camera, controls} = makeScene(elem);
         const objLoader = new OBJLoader2();
-        objLoader.load('../Assets/twoTwo.obj', (root) => {
+        objLoader.load('https://errationalshapes.s3.us-east-2.amazonaws.com/twoTwo.obj', (root) => {
         scene.add(root);
         });
         return (time, rect) => {
@@ -131,7 +131,7 @@ function main() {
       'threeOne': (elem) => {
         const {scene, camera, controls} = makeScene(elem);
         const objLoader = new OBJLoader2();
-        objLoader.load('../Assets/threeOne.obj', (root) => {
+        objLoader.load('https://errationalshapes.s3.us-east-2.amazonaws.com/threeOne.obj', (root) => {
         scene.add(root);
         });
         return (time, rect) => {
@@ -146,7 +146,7 @@ function main() {
       'threeTwo': (elem) => {
         const {scene, camera, controls} = makeScene(elem);
         const objLoader = new OBJLoader2();
-        objLoader.load('../Assets/threeTwo.obj', (root) => {
+        objLoader.load('https://errationalshapes.s3.us-east-2.amazonaws.com/threeTwo.obj', (root) => {
         scene.add(root);
         });
         return (time, rect) => {
@@ -161,7 +161,7 @@ function main() {
       'fourOne': (elem) => {
         const {scene, camera, controls} = makeScene(elem);
         const objLoader = new OBJLoader2();
-        objLoader.load('../Assets/fourOne.obj', (root) => {
+        objLoader.load('https://errationalshapes.s3.us-east-2.amazonaws.com/fourOne.obj', (root) => {
         scene.add(root);
         });
         return (time, rect) => {
@@ -176,7 +176,7 @@ function main() {
       'fourTwo': (elem) => {
         const {scene, camera, controls} = makeScene(elem);
         const objLoader = new OBJLoader2();
-        objLoader.load('../Assets/fourTwo.obj', (root) => {
+        objLoader.load('https://errationalshapes.s3.us-east-2.amazonaws.com/fourTwo.obj', (root) => {
         scene.add(root);
         });
         return (time, rect) => {
