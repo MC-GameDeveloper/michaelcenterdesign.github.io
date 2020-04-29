@@ -1,6 +1,31 @@
 import * as THREE from 'https://threejsfundamentals.org/threejs/resources/threejs/r115/build/three.module.js';
 import {TrackballControls} from 'https://threejsfundamentals.org/threejs/resources/threejs/r115/examples/jsm/controls/TrackballControls.js';
 import {OBJLoader2} from 'https://threejsfundamentals.org/threejs/resources/threejs/r115/examples/jsm/loaders/OBJLoader2.js';
+var aws= require('aws-sdk');
+const config = require('./config.json');
+
+(async function(){
+
+  try{
+    aws.config.setPromisesDependency();
+    aws.config.update({
+
+      accessKeyId:config.aws.accessKeyId,
+      secretAccessKey:config.aws.secretAccessKey,
+      region: 'us-east-2'
+    }).promise();
+
+    const s3 = new aws.S3();
+    const response = await s3.listObjectsV2({
+      Bucket:"errationalshapes"
+    });
+    console.log(response);
+
+  }catch(e){
+    console.log("our error", e);
+  }
+
+})();
 
 
 function main() {
@@ -45,7 +70,7 @@ function main() {
       const {scene, camera, controls} = makeScene(elem);
 
       const objLoader = new OBJLoader2();
-      objLoader.load('../Assets/oneOne.obj', (root) => {
+      objLoader.load('https://errationalshapes.s3.us-east-2.amazonaws.com/oneOne.obj', (root) => {
       scene.add(root);
       });
       // scene.add(mesh);
