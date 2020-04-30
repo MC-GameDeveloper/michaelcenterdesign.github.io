@@ -52,13 +52,16 @@ function main() {
     const controls = new TrackballControls(camera, elem);
     // controls.noZoom = true;
     controls.noPan = true;
+    controls.rotateSpeed = 2.5;
 
     {
       const color = 0xFFFFFF;
       const intensity = 1;
       const light = new THREE.DirectionalLight(color, intensity);
-      light.position.set(-1, 2, 4);
-      scene.add(light);
+      const light2 = new THREE.DirectionalLight(color, intensity-.3);
+      light.position.set(-1, 2, 10);
+      light2.position.set(2, -2, -10);
+      scene.add(light, light2);
     }
 
     return {scene, camera, controls};
