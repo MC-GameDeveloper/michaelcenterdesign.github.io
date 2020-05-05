@@ -52,7 +52,7 @@ function main() {
     const controls = new TrackballControls(camera, elem);
     // controls.noZoom = true;
     controls.noPan = true;
-    controls.rotateSpeed = 2.5;
+    controls.rotateSpeed = 1.75;
 
     {
       const color = 0xFFFFFF;
