@@ -12,7 +12,7 @@ var body = [
             "The term math tends to trigger negative memories for most, and that is due to how we are exposed to it. "+ 
             "It is presented to us as a convoluted set of rules that we must follow to achieve an arbitrary answer, but "+ 
             "in reality math is a rich and complex language. It is a way to explain the relationships that surround, and impact our lives.<br><br>"+
-            "In this piece, Michael uses the principles of signal processing to create 3D objects and tonal "+
+            "In this piece, I use the principles of signal processing to create 3D objects and tonal "+
             "patterns. By using mathematics as an artistic medium it becomes clear that we do not need to separate the arts and sciences as we do, "+
             "and should instead embrace the rich creative complexities of the field.<br><br>"+
             "<a href ='../Thesis/index.html' target = '_blank'><u>Click Here</u></a> to see the full project",
@@ -21,7 +21,7 @@ var body = [
             ' topics ranging from trigonometry, fractals, and boid logic. For Unity I explore the line renderer, trail renderer, lighting, and shaders.',
 ////////////Smart Glitchy Kitchen
             'Smart Glitchy Kitchen is a physical game with a large scale controller where a rookie chef needs to prepare an apple pie by carefully following the instructions. What our beloved chef doesn’t know is that this new tech kitchen has lots of flaws and glitches. It seems easier than it is. <br><br>'+
-            'In the end, Smart Glitchy Kitchen was exhibited in the independent game gallery called "Baby Castles. The game was too difficult for any one person, but it was great to see teams of people struggle to cook their pie in the alloted time.',
+            'In the end, Smart Glitchy Kitchen was exhibited in the independent game gallery called "Baby Castles". The game was too difficult for any one person, but it was great to see teams of people struggle to cook their pie in the alloted time.',
 ////////////Game Design Residency
             'During this Game Design Residency with the Staten Museum of Kunst in Copenhage, I collaborated with students from the "Royal Danish Academy of Fine Arts" to create this interactive game.<br><br>'+
             'The goal of this residency was to increase audience engagement. The museum saw that people, on average, would visit less than 2 of their exhibits. So, we created a game that would encourage exploration through the space<br><br>'+
