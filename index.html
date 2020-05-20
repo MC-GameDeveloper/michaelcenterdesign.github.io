@@ -1,278 +1,115 @@
 <!doctype html>
+
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>[ERR]rational</title>
-  <link rel="stylesheet" href="css/main.css">
-  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;400;700&display=swap" rel="stylesheet">
-  <!-- <script src="https://sdk.amazonaws.com/js/aws-sdk-2.665.0.min.js"></script> -->
+  <title>Michael Center</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap" rel="stylesheet">
+  <link rel="icon" href="assets/MCSiteLogo.png">
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
+
 <body>
+  
+  <nav>
+    <div id="nav-placeholder"></div>
+    <script>
+      $(function(){
+        $("#nav-placeholder").load("nav.html");
+      });
+    </script>
+  </nav>
+
   <section>
-    <!-- Cover image and text -->
-    <div class="title-content">
-      <h1>[ERR]rational</h1>
+    <!-- Work -->
+    <div class = "work">
+      <div class = "gallery-row">
+        <div class = "gallery-col-half-left work-link">
+          <div><img src="assets/errational/errational.jpg"></div>
+          <p class = "image-text"><span class ="image-text-head">[ERR]rational</span>
+            <br>
+            <span class ="image-text-body">Artistic expression generated from mathematics</span>
+            <br>
+            <span class ="image-skills">Skills: 3D Math, Unity, WebGL, HTML/CSS, JavaScript</span>
+          </p>
+        </div>
+
+        <!-- <div class = "gallery-col-third work-link">
+          <div><img src="assets/ABC-Talent/Alphabets got talent.png"></div>
+          <p class = "image-text"><span class ="image-text-head">Alphabets Got Talent</span>
+            <br>
+            <span class ="image-text-body">A game to quickly learn Morse Code for children</span>
+            <br>
+            <span class ="image-skills">Skills: Unity, Physical Computing, After Effects</span>
+              </p>
+        </div> -->
+
+        <div class = "gallery-col-half-right work-link">
+          <div><img src="assets/UnityMath/feature.png"></div>
+          <p ><span class ="image-text-head">Creative Mathematics</span>
+            <br>
+            <span class ="image-text-body">Exploration into visualizing mathematis with Unity</span>
+            <br>
+            <span class ="image-skills">Skills: 3D Math, Trigonometry, Boid logic, Unity</span>
+          </p>
+        </div>
+        
+      </div>
+
+      <div class = "gallery-row ">
+        <div class = "gallery-col-third work-link">
+          <div><img src="assets/Smart-Glitchy-Kitchen/feature.png"></div>
+          <p ><span class ="image-text-head">Smart Glitchy Kitchen</span>
+            <br>
+            <span class ="image-text-body">Exploration into visualizing mathematis with Unity</span>
+            <br>
+            <span class ="image-skills">Skills: 3D Math, Trigonometry, Boid logic, Unity</span>
+          </p>
+      </div>
+      <div class = "gallery-col-third work-link">
+        <div><img src="assets/SMK-Game-Design/feature.jpg"></div>
+        <p ><span class ="image-text-head">Game Design Residency</span>
+          <br>
+          <span class ="image-text-body">An interactive museum experience to improve engagement</span>
+          <br>
+          <span class ="image-skills">Skills: User Testing, Game Design, Graphic Design</span>
+        </p>
+        </div>
+        <div class = "gallery-col-third work-link">
+          <div><img src="assets/ABC-Talent/Alphabets got talent.png"></div>
+          <p class = "image-text"><span class ="image-text-head">Alphabets Got Talent</span>
+            <br>
+            <span class ="image-text-body">A game to quickly learn Morse Code for children</span>
+            <br>
+            <span class ="image-skills">Skills: Unity, Physical Computing, After Effects</span>
+              </p>
+        </div>
+
     </div>
 
-    <div class="text-content">
-      <p class="summary">
-        We are taught Mathematics as if it were a ruleset that governs all  
-        science, and logic. We treat it as a cold and unfeeling force
-        that is best left to the 'rational thinkers', and it is this approach that keeps us, non-mathematicians, 
-        from appreciating the art and beauty within it.
-        <br>
-        <br>
-        Math is a rich and complicated language used to understand 
-        the world around us. A Sine wave can 
-        be used to describe the motion of our body as we walk, the creation of an oil painting
-        can be understood through the lense of mathematics, and even music for many years was viewed as
-        a field of mathematics. 
-        <br>
-        <br>
-        The idea of rational vs. irrational, left brain vs right brain, or math vs. art is a barrier 
-        that we have placed upon ourselves that not only prevents us from experiencing the full creative potential
-        of both math and art, but has also helped to develop gaps of inequality in the fields of 
-        Science, Technology, Engineering, and Math (STEM). 
-        <br>
-        <br>
-        [ERR]rational uses Trigonometry to mathematically generate pieces 
-        of artwork to show the absurdity of the separation between math and art.
-      </p>
-
-      <!-- Unity Experience -->
-      <div class = "center-white">
-        <p>
-          Use the <img src="Assets/wasd.png"> keys to move, and look around with your mouse.
-          <br>
-          This is best experienced at fullscreen with headphones.
-        </p>
+    <!-- About -->
+    <div class = "gallery-row about-me">
+      <div class = "gallery-col-half-left">
+        <h1>A LITTLE ABOUT MYSELF.</h1>
+        <p>I am a Brooklyn based Creative Developer, Immersive Storyteller, Game Designer, Interaction Designer, Narrative Designer, Unity Developer, dog Dad, sub-par amateur chef, and urban farmer.<br><br>
+          Recently graduated with my MFA in Design and Technology from Parsons. I am interested in designing creative, innovative, and technologically driven experience <br><br>
+          I find excitement in the challenge of being able to adapt to new technologies, create immersive experiences, and communicate complex ideas in simple ways.<br><br>
+         
+        </div>
+      <div class = "gallery-col-half-right">
+        <img  src="assets/mtc.png">
       </div>
-      <div class = "theIframe"><iframe frameborder="0" src="Unity/index.html" allowfullscreen="" scrolling="no"></iframe></div>
-      <br><br><br>
-
-      <div class = "center-white"><p>Below are the equations and the audio/visuals that they generate. Click on each one to hear the audio.<br>Play different ones together and experience your own music.</p></div>
-      <div class = "center-white weight200size14"><p>note: you can rotate the objects below</p></div>
-      <br>
- 
-      <!-- shapes and explanations -->
-      <!-- row 1 -->
-    <div class = "shapes"> 
-      <canvas id="myCanvas"></canvas>
-      <div class = "gallery-row">
-        <div class = "gallery-col-half-left">
-          <div class = "gallery-row">
-            <div data-diagram="oneOne" class = "gallery-col-fourth">
-              <!-- add threejs canvas here -->
-            </div>
-            <div class = "gallery-col-threeFourth" >
-
-              <!-- add equations here -->
-              <p class="equationDiv">
-                x: 100.0 * sin(t*PI) * cos(t)<br>  
-                y: 100.0 * sin(t*PI) * sin(t)<br>
-                z: 100.0 * cos(t*PI) * cos(t)
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class = "gallery-col-half-right">
-          <div class = "gallery-row">
-            <div data-diagram="oneTwo" class = "gallery-col-fourth">
-              <!-- add threejs canvas here -->
-            </div>
-            <div class = "gallery-col-threeFourth">
-              <!-- add equations here -->
-              <p class="equationDiv">
-                x: 100.0 * cos(t*PI) * 2 * sin(t)<br>
-                y: 100.0 * cos(t*2*PI) * 2 * sin(t)<br>
-                z: 100.0 * sin(t*PI)  * 2 * cos(t)
-              </p>
-            </div>
-          </div>
-        </div>
+    </div>
+    <div class = "galler-row">
+      <div id = "contact"> <a href="assets/CenterBaseCV.pdf" target=”_blank”><u>Click here to see my CV and my past experience</u></a></p>
+          
+        <p><span>*** For Inquiries please email me at <a href="https://mail.google.com/mail/u/0/?tab=rm#inbox?compose=CllgCJNxPFkPjvGLzfXPKvZHPzThHjqxrsNrDLLQwmxbbrDcLHctdWGcrCQZRRkPxCTXdrXCwPg" target="_blank"><u>centm535@newschool.edu!</u></a> ***</span> </p>
       </div>
-
-      <!-- row 2 -->
-      <div class = "gallery-row">
-        <div class = "gallery-col-half-left" height = '100px'>
-          <div class = "gallery-row">
-            <div data-diagram="twoOne" class = "gallery-col-fourth">
-              <!-- add threejs canvas here -->
-            </div>
-            <div class = "gallery-col-threeFourth">
-              <!-- add equations here -->
-              <p class="equationDiv">
-                x: 100.0 * floor(sin(t*PI)) * floor(cos(t))<br>
-                y: 100.0 * sin(t*PI) * floor(sin(t))<br>
-                z: 100.0 * floor(cos(t*PI)) * floor(cos(t))
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class = "gallery-col-half-right">
-          <div class = "gallery-row">
-            <div data-diagram="TwoTwo" class = "gallery-col-fourth">
-              <!-- add threejs canvas here -->
-            </div>
-            <div class = "gallery-col-threeFourth">
-              <!-- add equations here -->
-              <p class="equationDiv">
-                x: 100.0 *(cos(t*PI) * (sin(t*2)*7) )<br>  
-                y: 100.0 * (sin(t)  * cos(t*4)*5)<br>
-                z: 100.0 * ((sin(t)*8 )  * sin(t))
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-       <!-- row 3 -->
-       <div class = "gallery-row">
-        <div class = "gallery-col-half-left" height = '100px'>
-          <div class = "gallery-row">
-            <div data-diagram="threeOne" class = "gallery-col-fourth">
-              <!-- add threejs canvas here -->
-            </div>
-            <div class = "gallery-col-threeFourth">
-              <!-- add equations here -->
-              <p class="equationDiv">
-                x: 100.0 * sin(t*(2*PI)) * 25 * cos(t)<br>  
-                y: 100.0 * sin(t*PI) * 25* sin(t)<br>
-                z: 100.0 * cos(t*PI) * 25.0 *  cos(t)
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class = "gallery-col-half-right">
-          <div class = "gallery-row">
-            <div data-diagram="threeTwo" class = "gallery-col-fourth">
-              <!-- add threejs canvas here -->
-            </div>
-            <div class = "gallery-col-threeFourth">
-              <!-- add equations here -->
-              <p class="equationDiv">
-                x: 100 * cos(t*PI) * 10 * sin(t*PI)<br> 
-                y: 25 * cos(t*(2*PI)) * 25 * sin(t*(2*PI))<br> 
-                z: 100 * sin(t*PI) * 5 * cos(t);;
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- row 4 -->
-      <div class = "gallery-row">
-        <div class = "gallery-col-half-left" height = '100px'>
-          <div class = "gallery-row">
-            <div data-diagram="fourOne" class = "gallery-col-fourth">
-              <!-- add threejs canvas here -->
-            </div>
-            <div class = "gallery-col-threeFourth">
-              <!-- add equations here -->
-              <p class="equationDiv">
-                x: cos(t*(2*PI)) * 500.0 * sin(t*(2*PI))<br>  
-                y: 25 * cos(t*PI) * 100.0 * sin(t*PI) / (t/3)<br>
-                z: 100 * sin(t*PI) * 25 * cos(t*PI)
-
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class = "gallery-col-half-right">
-          <div class = "gallery-row">
-            <div data-diagram="fourTwo" class = "gallery-col-fourth">
-              <!-- add threejs canvas here -->
-            </div>
-            <div class = "gallery-col-threeFourth">
-              <!-- add equations here -->
-              <p class="equationDiv">
-                x: 100.0 * cos(t*PI) * 10.0 * tan(t*PI)<br>
-                y: 100.0 * cos(t*PI) * sin(t*PI)<br>
-                z: 100.0 * tan(t*PI) * cos(t*PI)
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> 
-    <!-- <div class="center-white weight200size14"><p>FUN FACT: When 
-      playing the audio the variable "t" refers to time in seconds based 
-      on when you opened this site.<br> This means that you will experience
-      a different sounds at different times.<br>
-      It's music that changes based on the time of day.
-    </p></div> -->
-    
-    <div class = "center-white">
-      <h2>
-        So, what did we just experience?
-      </h2>
-    </div> 
-    <p>
-      In short, we experienced mathematics. Since math is just a form 
-      of communication, this can be seen as a translation. Sin, Cos, 
-      and PI are symbols defined by mathematics that explain relationships
-       that exist within the world. 
-      [ERR]rational just uses shapes and sounds to express those 
-      relationships through a different lense.
-    </p>
-
-    <div class = "center-white">
-      <h2>
-        So, how was it made?
-      </h2>
-    </div> 
-    <p>
-      The audio and and visuals went through different 'translation' filters.<br>
-      <br><strong>The Visuals</strong>:<br>
-      Modeled using the Cinema 4D function spline. This allows you to draw a line
-      following a certain equation for a number of "steps" or the variable t.
-       For example the function Sin(t) with 4 steps. On the first 
-      step t = 1 which is the same as calculating the "y" value of the Sine function when x = 1,
-       which equals about .8, and then on the second step t = 2 is about .9, and so on. 
-       In my models I used the equations seen above, with 44
-      steps.
-      <br>
-      <br><strong>The Audio</strong>:<br>
-      For audio, the functions went through a more complex translation process than our 3D models.
-      With the Tone.js library I loop my audio at 180 beats per minute. On each beat I calculate 
-      the value of the equation with "t" equaling time in seconds and use that value as a frequency
-      that is then filtered through a synthesizer. The synthesizer is just a another calculation
-      applied to that number to create something more akin to a musical note.  
-      <br>
-      <br><strong>In Conclusion</strong>:<br>
-      Each aspect of this experience has been mathematically generated. From a 3D environment 
-      that allows you to explore different sculptural pieces to the generated audio. This
-      isn't to show that math isn't complicated, but instead express the richness and potential
-      that it has. In classrooms we ask students to measure the distance of a tree's shadow based
-      on it's height, and they are left confused as to why will they need to know this information. 
-      We champion math as a pure, unfeeling and completely rational form of logic. Presenting math in this way
-      dissuades those who are generalized as "irrational" from engaging in a field that may, otherwise, bring them joy. 
-      Our current approach to mathematics has robbed many from its beauty, and it is my hope that through
-      this experience you too can see that we must bring creativity to the world of mathematics.
-    </p> 
-      <!-- go into how it is made -->
-     
-
-    <!-- <div class="end-notes">
-      </ul>
-      <h2>Resources</h2>
-        <p>
-          <a href="https://www.swatch.com/en_us/internet-time" target="_blank">Swatch Internet 
-          Time</a><br>
-          <a href="https://mars.nasa.gov/allaboutmars/facts/#?c=inspace&s=distance" target="_blank">
-          Nasa</a><br>
-          <a href="https://www.mars-one.com/" target="_blank">Mars One</a>
-          <a href="https://www.uscis.gov/sites/default/files/USCIS/Office%20of%20Citizenship/Citizenship%20Resource%20Center%20Site/Publications/M-1166.pdf" target="_blank">
-          U.S.A. Naturalization curriculum</a>
-        </p>
-    </div>  -->
+    </div>
   </section>
-  <script src="js/Tone.js"></script>
-  <script src="js/audio.js"></script>
 
-  <script src="js/shapes.js" type="module"></script>
-  
-  
-
+  <script src="js/main.js"></script>
 </body>
 </html>

@@ -1,0 +1,198 @@
+/* prod */
+body {
+    font-family: 'Cutive Mono', monospace;
+    font-size: 20px;
+    
+    color:white;
+    /* width: 90%; */
+    min-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #232528;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-size: 30px;
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+
+h2 {
+    font-size: 25px;
+    text-decoration: none;
+    margin-top: 80px;
+}
+u{
+    color: #a6aaaf;
+}
+
+/* header & navigation */
+
+.logo img{
+    margin-left: -15px;
+    padding-left:-15px;
+    
+    width:100px;
+    
+} 
+.logo img:hover{
+    width:105px;
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-left: 25px;
+    width: 60px;
+    position: fixed;
+    color:black;
+
+  } 
+  
+  li a {
+    display: block;
+    padding-bottom: 10px;
+    color: white;
+  }
+  li a:hover{
+      font-size: 105%;
+  }
+
+/* section */
+section {
+    width: 90%;
+    margin-left: 15%;
+    min-width: 800px;
+}
+
+.work{
+    padding-right:15%;
+}
+.work{
+    margin-left:0%;
+}
+.gallery-col-full {
+    float: left;
+    width: 86%; /* two cols of images */
+    /* padding: 5px; */
+}
+
+/* .gallery-col-threeFourth {
+    float: left;
+    width: 72%;
+    padding: 5px;
+} */
+
+.gallery-col-half-left {
+    float: left;
+    width: 44%; /* two cols of images */
+    /* padding: 5px; */
+}
+
+.gallery-col-half-right {
+    float: right;
+    width: 44%; /* two cols of images */
+    padding-right: 100px;
+}
+.work-doc img{
+    padding-left:50px;
+    width: 400px;
+}
+
+.gallery-col-third {
+    float: left;
+    width: 30%;
+    padding: 5px;
+}
+/* 
+.gallery-col-fourth {
+    float: left;
+    width: 24%;
+    padding: 5px;
+} */
+/* .gallery-row >div{
+    margin-left:50px;
+} */
+.gallery-row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.about-me{
+    margin-top: 150px;
+    
+}
+.about-me img{
+    max-width: 333px;
+    border-radius: 100%;
+    margin-top: 30px;
+    margin-left: 20%;
+
+}
+.work-text{
+    padding-top:20px;
+    position: fixed;
+    color:white;
+   
+}
+#other-work-text{
+    position:fixed;
+    padding:25px;
+    bottom: 34px;
+    font-size: 75%;
+    width: 40%;
+    border:1px solid grey;
+}
+
+section img, .img-text, video {
+    width: 100%;
+    display: block;
+}
+
+section .image-text-body {
+    font-size: 14px;
+    margin-top: 0px;
+    color: white;
+    
+}
+
+section .image-text-head p{
+
+    font-size:18px;
+}
+
+section .image-skills{
+    font-size: 14px;
+    color:rgb(179, 179, 179);
+}
+
+section .work-link p{
+    padding:6px;
+    border:1px solid grey;
+    min-height: 100px;
+
+}
+
+#contact{
+    padding-top:25px;
+    padding-bottom:5px;
+    border:1px solid grey;
+    text-align: center;
+    margin-bottom:50px;
+}
+
+
+/*#nav-placeholder{
+position: absolute;
+z-index: 9;
+ left:48%;
+top:48%; */
+/* background-color: #f1f1f1; */
+/* text-align: center; */
+/* border: 1px solid #d3d3d3;
+} */
+
+
