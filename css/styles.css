@@ -87,13 +87,13 @@ section {
 
 .gallery-col-half-left {
     float: left;
-    width: 44%; /* two cols of images */
-    /* padding: 5px; */
+    width: 42%; /* two cols of images */
+    padding: 5px;
 }
 
 .gallery-col-half-right {
     float: right;
-    width: 44%; /* two cols of images */
+    width: 42%; /* two cols of images */
     padding-right: 100px;
 }
 .work-doc img{

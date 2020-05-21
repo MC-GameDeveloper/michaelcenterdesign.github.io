@@ -95,13 +95,13 @@ section {
 
 .gallery-col-half-left {
     float: left;
-    width: 46%; /* two cols of images */
+    width: 40%; /* two cols of images */
     padding: 5px;
 }
 
 .gallery-col-half-right {
     float: right;
-    width: 46%; /* two cols of images */
+    width: 40%; /* two cols of images */
     padding: 5px;
 }
 /* 
