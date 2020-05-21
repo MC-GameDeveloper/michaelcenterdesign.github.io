@@ -87,15 +87,15 @@ section {
 
 .gallery-col-half-left {
     float: left;
-    width: 42%; /* two cols of images */
-    /* padding: 5px; */
+    width: 44.5%; /* two cols of images */
+    padding-left: 5px;
 }
 
 .gallery-col-half-right {
     float: right;
-    width: 42%; /* two cols of images */
+    width: 44.5%; /* two cols of images */
     
-    padding-right: 100px;
+    padding-right: 90px;
 }
 .work-doc img{
     padding-left:50px;
@@ -185,7 +185,23 @@ section .work-link p{
     margin-bottom:50px;
 }
 
+@media only screen and (max-width: 1200px) {
+    section .gallery-col-third.work-link p{
+        min-height: 200px;
+    }
+    .gallery-col-half-left {
 
+        width: 40%; /* two cols of images */
+        /* padding-left: 5px; */
+    }
+    
+    .gallery-col-half-right {
+
+        width: 40%; /* two cols of images */
+        
+        padding-right: 50px;
+    }
+  }
 /*#nav-placeholder{
 position: absolute;
 z-index: 9;
