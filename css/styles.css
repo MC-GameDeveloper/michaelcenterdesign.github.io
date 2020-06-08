@@ -124,13 +124,14 @@ section {
 
 .about-me{
     margin-top: 150px;
+    padding-bottom: 150px;
     
 }
 .about-me img{
     max-width: 333px;
     border-radius: 100%;
     margin-top: 30px;
-    margin-left: 20%;
+    margin-left: 35%;
 
 }
 .work-text{
