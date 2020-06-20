@@ -4,7 +4,7 @@
 //title array 0 must correspond with body array 0, and the images as well.
 
 //arrays for populating page
-var titles = ["[ERR]rational", "Creative Mathematics", "Smart Glitchy Kitchen", "Game Design Residency","Alphabets Got Talent"];
+var titles = ["[ERR]rational", "Alphabets Got Talent", "Creative Mathematics", "Smart Glitchy Kitchen", "Game Design Residency","Boss Fight"];
 
 var body = [
   //////////Errrational
@@ -16,6 +16,11 @@ var body = [
             "patterns. By using mathematics as an artistic medium it becomes clear that we do not need to separate the arts and sciences as we do, "+
             "and should instead embrace the rich creative complexities of the field.<br><br>"+
             "<a href ='../Thesis/index.html' target = '_blank'><u>Click Here</u></a> to see the full project",
+/////////////Alphabets Got Talent
+            'Alphabets Got Talent is the product of a 48 hour Morse Code Game Jam by a team of two Parsons and two New York University students in partnership with The Adaptive Design Association and Google.<br><br>'+
+            ' The goal of the project was to teach our client Morse code in a fun, interactive way using topics they were interested in. Our team was paired with an Adaptive Design client who had limited motor functions,'+
+            ' so we used two simple switches, to represent the dot and dash of Morse code. These switches then utilized the Google Gboard Morse keyboard to control the output of letters. In the game, the user uses the switches'+
+            ' to type a letter in Morse Code and an animal with the corresponding name would appear “dancing” and making animal noises. For example an elephant appearing when the user enters a dit (dot), the Morse code for “e.”',
 /////////////Creative Mathematics
             'As a study into both Unity and Mathematics, I developed a series of sketches to explore different perspectives of these topics. These sketches delve into varied aspects of both Unity and math. I cover mathematical'+
             ' topics ranging from trigonometry, fractals, and boid logic. For Unity I explore the line renderer, trail renderer, lighting, and shaders.',
@@ -26,12 +31,10 @@ var body = [
             'During this Game Design Residency with the Staten Museum of Kunst in Copenhage, I collaborated with students from the "Royal Danish Academy of Fine Arts" to create this interactive game.<br><br>'+
             'The goal of this residency was to increase audience engagement. The museum saw that people, on average, would visit less than 2 of their exhibits. So, we created a game that would encourage exploration through the space<br><br>'+
             'Users would wear these masks, which would have prompts on them to explore the museum from a new perspective. Through testing we found that there was a significant increase in how far museum goers would explore along with them enjoying the experience of being part of the performance.',
- /////////////Alphabets Got Talent
-            'Alphabets Got Talent is the product of a 48 hour Morse Code Game Jam by a team of two Parsons and two New York University students in partnership with The Adaptive Design Association and Google.<br><br>'+
-            ' The goal of the project was to teach our client Morse code in a fun, interactive way using topics they were interested in. Our team was paired with an Adaptive Design client who had limited motor functions,'+
-            ' so we used two simple switches, to represent the dot and dash of Morse code. These switches then utilized the Google Gboard Morse keyboard to control the output of letters. In the game, the user uses the switches'+
-            ' to type a letter in Morse Code and an animal with the corresponding name would appear “dancing” and making animal noises. For example an elephant appearing when the user enters a dit (dot), the Morse code for “e.”',
-]
+////////////Boss Fight
+            'While teaching myself Unity I built this small "Link to the Past" inspired boss fight game to explore the potentials of the software. This was developed over two weeks on my own. I created the sprite sheets for the animation, and'+
+            ' developed the experience.',
+ ]
 
 //gallery links to work pages
 var piecesOfWork = document.getElementsByClassName("work-link");
@@ -66,10 +69,15 @@ function populatePage(){
   //image data for this page
   var workImageLocation = document.getElementById("the-images");
   var workImages =[];
+  //documentation image hosting location **** https://imgur.com/a/12rlQWx ****
+  //documentation gif hosting location **** https://giphy.com/channel/mtc9417 ****
   var documentationImages=[
 //////////////////////////////Errrational
                             ["https://i.imgur.com/maV2QIE.gif", 
                             "https://i.imgur.com/78YKZSA.gif", "https://i.imgur.com/t2E5sx9.gif", ],
+////////////////////////////Alphabets Got Talent
+                            ["https://i.imgur.com/qgUoh6r.png", "https://i.imgur.com/13fGFBA.png", 
+                            "https://i.imgur.com/f8oLcQO.png", "https://i.imgur.com/6fghUD0.png"],
 ////////////////////////////Creative Math
                             ["https://media2.giphy.com/media/UrVBjoqpqFQTB4tHlv/giphy.gif", "https://media0.giphy.com/media/VJxWtkyq5qAvgX617N/giphy.gif",
                             "https://media.giphy.com/media/m9p9CUiHlsvEv3Z3qR/giphy.gif", "https://media.giphy.com/media/YQ5hhyI5RgAvxNgID4/giphy.gif",
@@ -82,10 +90,11 @@ function populatePage(){
                             ["https://i.imgur.com/lkOeAI6.jpg","https://i.imgur.com/wNNfxt3.jpg",
                             "https://i.imgur.com/GFG6hbk.jpg","https://i.imgur.com/xZN26EE.jpg",
                             "https://i.imgur.com/SPVaEwr.jpg","https://i.imgur.com/KqjM7CQ.jpg"],
- ////////////////////////////Alphabets Got Talent
-                            ["https://i.imgur.com/qgUoh6r.png", "https://i.imgur.com/13fGFBA.png", 
-                            "https://i.imgur.com/f8oLcQO.png", "https://i.imgur.com/6fghUD0.png"],
-];
+////////////////////////////Boss Fight
+                            ["https://media0.giphy.com/media/WTL764Pam3Holfpi0K/giphy.webp", "https://media2.giphy.com/media/Mdiy2b8riPFS7lDZ3z/giphy.webp",
+                            "https://media1.giphy.com/media/RlZt1NpqgxhkjiTcsU/giphy.webp", "https://media0.giphy.com/media/Xy27Wet1a19bQ5lqYW/giphy.gif",
+                            "https://media2.giphy.com/media/jsNR2hrGiqcvtG6B9W/200w.webp", "https://media1.giphy.com/media/igzbVWyw7px95ZRnVh/giphy.webp"],
+ ];
                           console.log(documentationImages[3].length)
   //other work data
   var otherWorks = document.getElementsByClassName("other-work");
