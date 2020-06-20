@@ -33,8 +33,8 @@ var body = [
             'Users would wear these masks, which would have prompts on them to explore the museum from a new perspective. Through testing we found that there was a significant increase in how far museum goers would explore along with them enjoying the experience of being part of the performance.',
 ////////////Boss Fight
             'Boss Fight is inspired by "The Legend of Zelda: A Link to the Past". Working with one other developer we created this game within a week.'+
-            " I was responsible for the animations and code development for the Boss and for the player. While my counterpart developed worked with the audio"+
-            " and user interface. This project, while small, explore many aspects of Unity, sprite animation, and version control. This game and a few others can be played on my <a href ='https://mt-cent.itch.io/' target = '_blank'><u>itch.io page</u></a>",
+            " I was responsible for the animations and code development for the Boss and for the player. While my counterpart developed the audio"+
+            " and user interface. This project, while small, explores many aspects of Unity, sprite animation, version control, and gave us a better understanding of game development. This game and a few others can be played on my <a href ='https://mt-cent.itch.io/' target = '_blank'><u>itch.io page</u></a>",
  ]
 
 //gallery links to work pages
