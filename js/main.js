@@ -33,7 +33,7 @@ var body = [
             'Users would wear these masks, which would have prompts on them to explore the museum from a new perspective. Through testing we found that there was a significant increase in how far museum goers would explore along with them enjoying the experience of being part of the performance.',
 ////////////Boss Fight
             'While teaching myself Unity I built this small "Link to the Past" inspired boss fight game to explore the potentials of the software. This was developed over two weeks on my own. I created the sprite sheets for the animation, and'+
-            ' developed the experience.',
+            " developed the experience. The game can be played on my <a href ='https://mt-cent.itch.io/boss-fight' target = '_blank'><u>itch.io page</u></a>",
  ]
 
 //gallery links to work pages
