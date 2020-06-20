@@ -32,7 +32,7 @@ var body = [
             'The goal of this residency was to increase audience engagement. The museum saw that people, on average, would visit less than 2 of their exhibits. So, we created a game that would encourage exploration through the space<br><br>'+
             'Users would wear these masks, which would have prompts on them to explore the museum from a new perspective. Through testing we found that there was a significant increase in how far museum goers would explore along with them enjoying the experience of being part of the performance.',
 ////////////Boss Fight
-            'Boss Fight is clearly inspired by "The Legend of Zelda: A Link to the Past". Working with one other developer we created this game within a week.'+
+            'Boss Fight is inspired by "The Legend of Zelda: A Link to the Past". Working with one other developer we created this game within a week.'+
             " I was responsible for the animations and code development for the Boss and for the player. While my counterpart developed worked with the audio"+
             " and user interface. This project, while small, explore many aspects of Unity, sprite animation, and version control. This game and a few others can be played on my <a href ='https://mt-cent.itch.io/' target = '_blank'><u>itch.io page</u></a>",
  ]
