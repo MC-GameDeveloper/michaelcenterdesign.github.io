@@ -34,7 +34,7 @@ var body = [
 ////////////Boss Fight
             'Boss Fight is inspired by "The Legend of Zelda: A Link to the Past". Working with one other developer we created this game within a week.'+
             " I was responsible for the animations and code development for the Boss and for the player. While my counterpart developed the audio"+
-            " and user interface. This project, while small, explores many aspects of Unity, sprite animation, version control, and gave us a better"+
+            " and user interface. This project, while small, explores many aspects of Unity, sprite animation, version control, and gave us a better "+
             "understanding of game development.<br><br> Boss Fight can be played <a href ='https://mt-cent.itch.io/boss-fight' target = '_blank'><u>here</u></a> <br> Other small games I have made can be played <a href ='https://mt-cent.itch.io/' target = '_blank'><u>here</u></a>",
  ]
 
