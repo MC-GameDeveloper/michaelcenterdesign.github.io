@@ -4,7 +4,7 @@
 //title array 0 must correspond with body array 0, and the images as well.
 
 //arrays for populating page
-var titles = ["[ERR]rational", "Alphabets Got Talent", "Creative Mathematics", "Smart Glitchy Kitchen", "Game Design Residency","Boss Fight"];
+var titles = ["[ERR]rational", "Alphabets Got Talent", "Creative Mathematics", "Smart Glitchy Kitchen", "Ocean Sim Tool","Boss Fight"];
 
 var body = [
   //////////Errrational
@@ -28,15 +28,23 @@ var body = [
             'Smart Glitchy Kitchen is a physical game with a large scale controller where a rookie chef needs to prepare an apple pie by carefully following the instructions. What our beloved chef doesn’t know is that this new tech kitchen has lots of flaws and glitches. It seems easier than it is. <br><br>'+
             'In the end, Smart Glitchy Kitchen was exhibited in the independent game gallery called "Baby Castles". The game was too difficult for any one person, but it was great to see teams of people struggle to cook their pie in the alloted time.',
 ////////////Game Design Residency
-            'During this Game Design Residency with the Staten Museum of Kunst in Copenhage, I collaborated with students from the "Royal Danish Academy of Fine Arts" to create this interactive game.<br><br>'+
-            'The goal of this residency was to increase audience engagement. The museum saw that people, on average, would visit less than 2 of their exhibits. So, we created a game that would encourage exploration through the space<br><br>'+
-            'Users would wear these masks, which would have prompts on them to explore the museum from a new perspective. Through testing we found that there was a significant increase in how far museum goers would explore along with them enjoying the experience of being part of the performance.',
+            // 'During this Game Design Residency with the Staten Museum of Kunst in Copenhage, I collaborated with students from the "Royal Danish Academy of Fine Arts" to create this interactive game.<br><br>'+
+            // 'The goal of this residency was to increase audience engagement. The museum saw that people, on average, would visit less than 2 of their exhibits. So, we created a game that would encourage exploration through the space<br><br>'+
+            // 'Users would wear these masks, which would have prompts on them to explore the museum from a new perspective. Through testing we found that there was a significant increase in how far museum goers would explore along with them enjoying the experience of being part of the performance.',
+
+////////////Ocean Sim Tools
+            'This is a project to explore graphics programming, and tool development within Unity. There are currently two parts to this, a day/night cycle '+
+            "that allows you to manipulate the angle of the sun and speed of it's movement. These properties allow a developer to create a more realistic environment "+
+            "and adds realistic lighting for different seasons or latitudes. This is achieved by using trigonometry to properly angle the directional light on a circle opposed to "+
+            "having the sun rise/set on a perfectly vertical path. The other part is a shader that allows the developer the create realistic waves. The Wave shader "+
+            "uses Trochoidal or Gerstner waves to emulate the realism of actual fluid dynamics. Currently in development is a tool for designers to dictate the number "+
+            "of waves, and all other appropriate properties. ",
 ////////////Boss Fight
             'Boss Fight is inspired by "The Legend of Zelda: A Link to the Past". Working with one other developer we created this game within a week.'+
             " I was responsible for the animations and code development for the Boss and for the player. While my counterpart developed the audio"+
             " and user interface. This project, while small, explores many aspects of Unity, sprite animation, version control, and gave us a better "+
             "understanding of game development.<br><br> Boss Fight can be played <a href ='https://mt-cent.itch.io/boss-fight' target = '_blank'><u>here</u></a> <br> Other small games I have made can be played <a href ='https://mt-cent.itch.io/' target = '_blank'><u>here</u></a>",
- ]
+ ];
 
 //gallery links to work pages
 var piecesOfWork = document.getElementsByClassName("work-link");
@@ -89,9 +97,13 @@ function populatePage(){
                             "https://i.imgur.com/E5TLoys.png", "https://i.imgur.com/8QNzw75.png",
                             "https://i.imgur.com/H9c9Req.jpg", "https://i.imgur.com/HRf7MUE.jpg",],
 ////////////////////////////Game Residency
-                            ["https://i.imgur.com/lkOeAI6.jpg","https://i.imgur.com/wNNfxt3.jpg",
-                            "https://i.imgur.com/GFG6hbk.jpg","https://i.imgur.com/xZN26EE.jpg",
-                            "https://i.imgur.com/SPVaEwr.jpg","https://i.imgur.com/KqjM7CQ.jpg"],
+                            // ["https://i.imgur.com/lkOeAI6.jpg","https://i.imgur.com/wNNfxt3.jpg",
+                            // "https://i.imgur.com/GFG6hbk.jpg","https://i.imgur.com/xZN26EE.jpg",
+                            // "https://i.imgur.com/SPVaEwr.jpg","https://i.imgur.com/KqjM7CQ.jpg"],
+////////////////////////////Boss Fight
+                            ["https://media1.giphy.com/media/jokm2VqAgtY14A1aiU/giphy.gif","https://media1.giphy.com/media/ZdOVeHNu8buM2Cpacc/giphy.gif","https://media3.giphy.com/media/l4p7oCSu7VOIWPXQeU/giphy.gif"
+
+                            ],
 ////////////////////////////Boss Fight
                             ["https://media0.giphy.com/media/WTL764Pam3Holfpi0K/giphy.webp", "https://media2.giphy.com/media/Mdiy2b8riPFS7lDZ3z/giphy.webp",
                             "https://media1.giphy.com/media/RlZt1NpqgxhkjiTcsU/giphy.webp", "https://media0.giphy.com/media/Xy27Wet1a19bQ5lqYW/giphy.gif",
