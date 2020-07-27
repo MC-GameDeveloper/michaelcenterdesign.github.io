@@ -70,7 +70,8 @@ function loadWorkPage(index){
   console.log(index);
   window.name = index;
   window.location.href = "work.html";
-  
+  window.history.pushState("work.html", "Center", "/" + window.name);
+
 }
 function populatePage(){
   //name of this page
@@ -111,7 +112,7 @@ function populatePage(){
                             "https://media1.giphy.com/media/RlZt1NpqgxhkjiTcsU/giphy.webp", "https://media0.giphy.com/media/Xy27Wet1a19bQ5lqYW/giphy.gif",
                             "https://media2.giphy.com/media/jsNR2hrGiqcvtG6B9W/200w.webp", "https://media1.giphy.com/media/igzbVWyw7px95ZRnVh/giphy.webp"],
  ];
-                          console.log(documentationImages[3].length)
+
   //other work data
   var otherWorks = document.getElementsByClassName("other-work");
   var color = ["#165f99", "#f5cb62", "#cc6155"];
