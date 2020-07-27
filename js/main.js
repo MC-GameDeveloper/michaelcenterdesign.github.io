@@ -25,6 +25,7 @@ var body = [
             'As a study into both Unity and Mathematics, I developed a series of sketches to explore different perspectives of these topics. These sketches delve into varied aspects of both Unity and math. I cover mathematical'+
             ' topics ranging from trigonometry, fractals, and boid logic. For Unity I explore the line renderer, trail renderer, lighting, and shaders.',
 ////////////Smart Glitchy Kitchen
+            'In this project I was responsible for developing the user experience by using both Unity and Arduino to communicate with one another.'+
             'Smart Glitchy Kitchen is a physical game with a large scale controller where a rookie chef needs to prepare an apple pie by carefully following the instructions. What our beloved chef doesn’t know is that this new tech kitchen has lots of flaws and glitches. It seems easier than it is. <br><br>'+
             'In the end, Smart Glitchy Kitchen was exhibited in the independent game gallery called "Baby Castles". The game was too difficult for any one person, but it was great to see teams of people struggle to cook their pie in the alloted time.',
 ////////////Game Design Residency
