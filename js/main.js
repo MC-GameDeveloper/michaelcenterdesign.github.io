@@ -67,15 +67,16 @@ for (var i = 0; i < piecesOfWork.length; i++) {
 
 //The new Page
 function loadWorkPage(index){
-  console.log(index);
-  window.name = index;
-  window.location.href = "work.html";
-  window.history.pushState("work.html", "Center", "/" + window.name);
+  //console.log(index);
+ window.name = index;
+  window.location.href =  "work.html";
+ 
 
 }
 function populatePage(){
   //name of this page
   var thisPage = window.name
+  window.history.pushState("work.html","Michael Center","/" + titles[thisPage]);
   //text data for this page
   var workTitle = document.getElementById("work-text-title");
   var workBody = document.getElementById("work-text-body");
