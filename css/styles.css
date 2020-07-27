@@ -203,6 +203,10 @@ section .work-link p{
         
         padding-right: 50px;
     }
+    .work-doc img{
+
+        width: 400px;
+    }
   }
 /*#nav-placeholder{
 position: absolute;
