@@ -99,7 +99,7 @@ section {
 }
 .work-doc img{
     padding-left:50px;
-    width: 400px;
+    width: 600px;
 }
 
 .gallery-col-third {
@@ -140,6 +140,7 @@ section {
     color:white;
    
 }
+
 #other-work-text{
     position:fixed;
     padding:25px;
