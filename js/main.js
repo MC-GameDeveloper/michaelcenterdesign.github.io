@@ -76,7 +76,7 @@ function loadWorkPage(index){
 function populatePage(){
   //name of this page
   var thisPage = window.name
-  window.history.pushState("work.html","Michael Center","/" + titles[thisPage]);
+
   //text data for this page
   var workTitle = document.getElementById("work-text-title");
   var workBody = document.getElementById("work-text-body");
