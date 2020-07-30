@@ -20,7 +20,8 @@ var body = [
             'Alphabets Got Talent is the product of a 48 hour Morse Code Game Jam by a team of two Parsons and two New York University students in partnership with The Adaptive Design Association and Google.<br><br>'+
             ' The goal of the project was to teach our client Morse code in a fun, interactive way using topics they were interested in. Our team was paired with an Adaptive Design client who had limited motor functions,'+
             ' so we used two simple switches, to represent the dot and dash of Morse code. These switches then utilized the Google Gboard Morse keyboard to control the output of letters. In the game, the user uses the switches'+
-            ' to type a letter in Morse Code and an animal with the corresponding name would appear “dancing” and making animal noises. For example an elephant appearing when the user enters a dit (dot), the Morse code for “e.”',
+            ' to type a letter in Morse Code and an animal with the corresponding name would appear “dancing” and making animal noises. For example an elephant appearing when the user enters a dit (dot), the Morse code for “e.”<br><br>'+
+            'This project was featured on the <a href = "https://experiments.withgoogle.com/alphabets-got-talent"target = "_blank"><u>Google Experiments</u></a> page',
 /////////////Creative Mathematics
             'As a study into both Unity and Mathematics, I developed a series of sketches to explore different perspectives of these topics. These sketches delve into varied aspects of both Unity and math. I cover mathematical'+
             ' topics ranging from trigonometry, fractals, and boid logic. For Unity I explore the line renderer, trail renderer, lighting, and shaders.',
