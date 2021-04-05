@@ -16,14 +16,14 @@ var body = [
             '<a href = "https://apps.apple.com/us/app/run-boggo-run-to-nirvana/id1554388600"target = "_blank"><u>iOS Download</u></a> <br><br>'+
             ' <a href = "https://play.google.com/store/apps/details?id=com.BuzzFeed.RunBoggoRunFree&hl=en_US&gl=US"target = "_blank"><u>Android Download</u></a>',
   //////////Errrational
-            "[ERR]rational is an audio-visual artwork that is completely generated through mathematics.<br><br>"+ 
-            "The term math tends to trigger negative memories for most, and that is due to how we are exposed to it. "+ 
-            "It is presented to us as a convoluted set of rules that we must follow to achieve an arbitrary answer, but "+ 
-            "in reality math is a rich and complex language. It is a way to explain the relationships that surround, and impact our lives.<br><br>"+
-            "In this piece, I use the principles of signal processing to create 3D objects and tonal "+
-            "patterns. By using mathematics as an artistic medium it becomes clear that we do not need to separate the arts and sciences as we do, "+
-            "and should instead embrace the rich creative complexities of the field.<br><br>"+
-            "<a href ='../Thesis/index.html' target = '_blank'><u>Click Here</u></a> to see the full project",
+            '[ERR]rational is an audio-visual artwork that is completely generated through mathematics.<br><br>'+ 
+            'The term math tends to trigger negative memories for most, and that is due to how we are exposed to it. '+ 
+            'It is presented to us as a convoluted set of rules that we must follow to achieve an arbitrary answer, but '+ 
+            'in reality math is a rich and complex language. It is a way to explain the relationships that surround, and impact our lives.<br><br>'+
+            'In this piece, I use the principles of signal processing to create 3D objects and tonal '+
+            'patterns. By using mathematics as an artistic medium it becomes clear that we do not need to separate the arts and sciences as we do, '+
+            'and should instead embrace the rich creative complexities of the field.<br><br>'+
+            '<a href ="../Thesis/index.html" target = "_blank"><u>Click Here</u></a> to see the full project',
 /////////////Alphabets Got Talent
             'Alphabets Got Talent is the product of a 48 hour Morse Code Game Jam by a team of two Parsons and two New York University students in partnership with The Adaptive Design Association and Google.<br><br>'+
             ' The goal of the project was to teach our client Morse code in a fun, interactive way using topics they were interested in. Our team was paired with an Adaptive Design client who had limited motor functions,'+
