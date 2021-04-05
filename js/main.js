@@ -84,9 +84,11 @@ function loadWorkPage(index){
 }
 function populatePage(){
   //name of this page
+
   var thisPage = window.name
-  console.log(thisPage);
+ 
   if(thisPage == null){
+    console.log(thisPage);
     thisPage = 0;
   }
 
