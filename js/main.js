@@ -85,6 +85,10 @@ function loadWorkPage(index){
 function populatePage(){
   //name of this page
   var thisPage = window.name
+  console.log(thisPage);
+  // if(thisPage == null){
+  //   thisPage = 
+  // }
 
   //text data for this page
   var workTitle = document.getElementById("work-text-title");
