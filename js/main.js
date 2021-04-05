@@ -86,9 +86,9 @@ function populatePage(){
   //name of this page
   var thisPage = window.name
   console.log(thisPage);
-  // if(thisPage == null){
-  //   thisPage = 
-  // }
+  if(thisPage == null){
+    thisPage = 0;
+  }
 
   //text data for this page
   var workTitle = document.getElementById("work-text-title");
