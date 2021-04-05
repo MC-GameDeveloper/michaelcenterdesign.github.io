@@ -23,7 +23,7 @@ var body = [
             'In this piece, I use the principles of signal processing to create 3D objects and tonal '+
             'patterns. By using mathematics as an artistic medium it becomes clear that we do not need to separate the arts and sciences as we do, '+
             'and should instead embrace the rich creative complexities of the field.<br><br>'+
-            '<a href ="../Thesis/index.html" target = "_blank"><u>Click Here</u></a> to see the full project',
+            '<a href ="https://mc-gamedeveloper.github.io/portfolio/Thesis/index.html" target = "_blank"><u>Click Here</u></a> to see the full project',
 /////////////Alphabets Got Talent
             'Alphabets Got Talent is the product of a 48 hour Morse Code Game Jam by a team of two Parsons and two New York University students in partnership with The Adaptive Design Association and Google.<br><br>'+
             ' The goal of the project was to teach our client Morse code in a fun, interactive way using topics they were interested in. Our team was paired with an Adaptive Design client who had limited motor functions,'+
