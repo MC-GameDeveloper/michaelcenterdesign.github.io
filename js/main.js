@@ -87,7 +87,7 @@ function populatePage(){
 
   var thisPage = window.name
  
-  if(thisPage == null){
+  if(thisPage == ""){
     console.log(thisPage);
     thisPage = 0;
   }
