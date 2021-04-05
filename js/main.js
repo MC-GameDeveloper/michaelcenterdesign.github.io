@@ -77,7 +77,7 @@ for (var i = 0; i < piecesOfWork.length; i++) {
 //The new Page
 function loadWorkPage(index){
   //console.log(index);
- window.name = index;
+  window.name = index;
   window.location.href =  "work.html";
  
 
