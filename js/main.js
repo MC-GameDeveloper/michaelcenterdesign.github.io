@@ -4,9 +4,17 @@
 //title array 0 must correspond with body array 0, and the images as well.
 
 //arrays for populating page
-var titles = ["[ERR]rational", "Alphabets Got Talent", "Creative Mathematics", "Smart Glitchy Kitchen", "Ocean Sim Tool","Boss Fight"];
+var titles = ["Run Boggo, Run!","[ERR]rational", "Alphabets Got Talent", "Creative Mathematics", "Smart Glitchy Kitchen", "Game Design Residency","Ocean Sim Tool","Boss Fight"];
 
 var body = [
+  //////////Run Boggo Run
+            'Buzzfeeds first game, Run Boggo Run is an endless runner-style mobile-game. It is up to you to help Boggo escape from the giant Stress Monster and unlock her Chakras!<br><br>'+ 
+            'I worked with a team of designers, artists, and animators as the sole developer to create this game. '+
+            'Over 10 weeks we worked to release an early access build. In that time I setup version control/review workflows and tools to allow for other teammates to incorporate their work. '+
+            'I also rapidly prototyped and iterated upon in-game mechanics, and features, created custom physics and character controllers, and developed all necessary systems and more. <br><br>'+
+            'After the initial release we rebalanced the game, created more content, created a free version with ads, and optimized the game based on the feedback we received by our players.<br><br>'+
+            '<a href = "https://apps.apple.com/us/app/run-boggo-run-to-nirvana/id1554388600"target = "_blank"><u>iOS Download</u></a> <br><br>'+
+            ' <a href = "https://play.google.com/store/apps/details?id=com.BuzzFeed.RunBoggoRunFree&hl=en_US&gl=US"target = "_blank"><u>Android Download</u></a>',
   //////////Errrational
             "[ERR]rational is an audio-visual artwork that is completely generated through mathematics.<br><br>"+ 
             "The term math tends to trigger negative memories for most, and that is due to how we are exposed to it. "+ 
@@ -30,9 +38,9 @@ var body = [
             'Smart Glitchy Kitchen is a physical game with a large scale controller where a rookie chef needs to prepare an apple pie by carefully following the instructions. What our beloved chef doesn’t know is that this new tech kitchen has lots of flaws and glitches. It seems easier than it is. <br><br>'+
             'In the end, Smart Glitchy Kitchen was exhibited in the independent game gallery called "Baby Castles". The game was too difficult for any one person, but it was great to see teams of people struggle to cook their pie in the alloted time.',
 ////////////Game Design Residency
-            // 'During this Game Design Residency with the Staten Museum of Kunst in Copenhage, I collaborated with students from the "Royal Danish Academy of Fine Arts" to create this interactive game.<br><br>'+
-            // 'The goal of this residency was to increase audience engagement. The museum saw that people, on average, would visit less than 2 of their exhibits. So, we created a game that would encourage exploration through the space<br><br>'+
-            // 'Users would wear these masks, which would have prompts on them to explore the museum from a new perspective. Through testing we found that there was a significant increase in how far museum goers would explore along with them enjoying the experience of being part of the performance.',
+            'During this Game Design Residency with the Staten Museum of Kunst in Copenhage, I collaborated with students from the "Royal Danish Academy of Fine Arts" to create this interactive game.<br><br>'+
+            'The goal of this residency was to increase audience engagement. The museum saw that people, on average, would visit less than 2 of their exhibits. So, we created a game that would encourage exploration through the space<br><br>'+
+            'Users would wear these masks, which would have prompts on them to explore the museum from a new perspective. Through testing we found that there was a significant increase in how far museum goers would explore along with them enjoying the experience of being part of the performance.',
 
 ////////////Ocean Sim Tools
             'This is a project to explore graphics programming, and tool development within Unity. There are currently two parts to this, a day/night cycle '+
@@ -87,6 +95,10 @@ function populatePage(){
   //documentation image hosting location **** https://imgur.com/a/12rlQWx ****
   //documentation gif hosting location **** https://giphy.com/channel/mtc9417 ****
   var documentationImages=[
+///////////////////////////////Run Boggo Run
+                            ["https://i.imgur.com/4eIHpuR.png", "https://i.imgur.com/OKLRZbm.png",
+                            "https://i.imgur.com/1p7FkKF.png", "https://i.imgur.com/FBdLy8S.png",
+                            "https://i.imgur.com/gJgnxy7.png","https://i.imgur.com/Y6ZHFy4.png" ],
 //////////////////////////////Errrational
                             ["https://i.imgur.com/maV2QIE.gif", 
                             "https://i.imgur.com/78YKZSA.gif", "https://i.imgur.com/t2E5sx9.gif", ],
@@ -102,10 +114,10 @@ function populatePage(){
                             "https://i.imgur.com/E5TLoys.png", "https://i.imgur.com/8QNzw75.png",
                             "https://i.imgur.com/H9c9Req.jpg", "https://i.imgur.com/HRf7MUE.jpg",],
 ////////////////////////////Game Residency
-                            // ["https://i.imgur.com/lkOeAI6.jpg","https://i.imgur.com/wNNfxt3.jpg",
-                            // "https://i.imgur.com/GFG6hbk.jpg","https://i.imgur.com/xZN26EE.jpg",
-                            // "https://i.imgur.com/SPVaEwr.jpg","https://i.imgur.com/KqjM7CQ.jpg"],
-////////////////////////////Boss Fight
+                            ["https://i.imgur.com/lkOeAI6.jpg","https://i.imgur.com/wNNfxt3.jpg",
+                            "https://i.imgur.com/GFG6hbk.jpg","https://i.imgur.com/xZN26EE.jpg",
+                            "https://i.imgur.com/SPVaEwr.jpg","https://i.imgur.com/KqjM7CQ.jpg"],
+////////////////////////////Ocean Sim
                             ["https://media1.giphy.com/media/jokm2VqAgtY14A1aiU/giphy.gif","https://media1.giphy.com/media/ZdOVeHNu8buM2Cpacc/giphy.gif","https://media3.giphy.com/media/l4p7oCSu7VOIWPXQeU/giphy.gif"
 
                             ],

@@ -91,10 +91,16 @@ section {
     padding-left: 5px;
 }
 
+.gallery-col-half-right-Home {
+    float: left;
+    width: 44.5%; /* two cols of images */
+    padding-left: 35px;
+    /* padding-right: 90px; */
+}
 .gallery-col-half-right {
     float: right;
     width: 44.5%; /* two cols of images */
-    
+    /* padding-left: 35px; */
     padding-right: 90px;
 }
 .work-doc img{
