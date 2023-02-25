@@ -4,7 +4,7 @@
 //title array 0 must correspond with body array 0, and the images as well.
 
 //arrays for populating page
-fetch('/data/PortfolioContentJSON.json')
+fetch('/js/PortfolioContentJSON.json')
   .then(response => response.json())
   .then(jsonData => 
   {
