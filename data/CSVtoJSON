@@ -3,6 +3,7 @@ import json
  
 # Function to convert a CSV to JSON
 def make_json(csvFilePath, jsonFilePath):
+
     # Open a csv reader called DictReader
     with open(csvFilePath, encoding='utf-8') as csvf:
         csvReader = csv.DictReader(csvf)
@@ -13,7 +14,8 @@ def make_json(csvFilePath, jsonFilePath):
             item = {
                 'Title': row['Title'],
                 'Body': row['Body'],
-                'Images': [img.strip() for img in row['Images'].split(',')]
+                'Images': [img.strip() for img in row['Images'].split(',')],
+                'IText': [str.strip() for str in row['IText'].split(',')]
             }
             # add the dictionary to the list
             data.append(item)
@@ -23,10 +25,9 @@ def make_json(csvFilePath, jsonFilePath):
     with open(jsonFilePath, 'w', encoding='utf-8') as jsonf:
         jsonf.write(json.dumps(data, indent=4))
 
-# Decide the two file paths according to your
-# computer system
+# Decide the two file paths according to your computer system
 csvFilePath = r'data/PortfolioContentCSV.csv'
-jsonFilePath = r'js/PortfolioContentJSON.json'
+jsonFilePath = r'data/PortfolioContentJSON.json'
  
 # Call the make_json function
 make_json(csvFilePath, jsonFilePath)

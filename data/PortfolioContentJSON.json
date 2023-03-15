@@ -9,6 +9,14 @@
             "https://i.imgur.com/FBdLy8S.png",
             "https://i.imgur.com/gJgnxy7.png",
             "https://i.imgur.com/Y6ZHFy4.png"
+        ],
+        "IText": [
+            "",
+            "The 'Stress Monster' got closer to Boggo every<br>       time he would run into an obstacle<br>",
+            "By swiping on the screen the player could toss a<br>       bath bomb to knock the stress monster back.<br>",
+            "I developed a data driven leveling system<br>",
+            "I used an MVC design pattern to create the UI<br>       and an object pooling system to improve efficiency.<br>",
+            ""
         ]
     },
     {
@@ -18,6 +26,11 @@
             "https://i.imgur.com/maV2QIE.gif",
             "https://i.imgur.com/78YKZSA.gif",
             "https://i.imgur.com/t2E5sx9.gif"
+        ],
+        "IText": [
+            "",
+            "",
+            ""
         ]
     },
     {
@@ -28,6 +41,12 @@
             "https://i.imgur.com/13fGFBA.png",
             "https://i.imgur.com/f8oLcQO.png",
             "https://i.imgur.com/6fghUD0.png"
+        ],
+        "IText": [
+            "",
+            "The Yellow dash types a T<br>       and a Tiger dances across the screen<br>",
+            "The Red dot types an E<br>       and an Elephant dances across the screen<br>",
+            "We ran user testing to ensure an intuitive and<br>       comfortable experience<br>"
         ]
     },
     {
@@ -40,6 +59,14 @@
             "https://media.giphy.com/media/YQ5hhyI5RgAvxNgID4/giphy.gif",
             "https://media.giphy.com/media/f9Z0Kx7pHo39CpD7G9/giphy.gif",
             "https://media2.giphy.com/media/dZFVIb5zmBte0MRWQ3/giphy.gif"
+        ],
+        "IText": [
+            "Exploring Trigonometric movement in multiple dimensions<br>",
+            "Extending the Trigonometric experiment to harmonic functions<br>",
+            "Exploring Tesselation and noise<br>",
+            "Continuing to look at noise in context of stylized water<br>",
+            "Experimenting with Boid logic<br>",
+            "Combining all experiments into an ultimate structure<br>"
         ]
     },
     {
@@ -52,6 +79,14 @@
             "https://i.imgur.com/8QNzw75.png",
             "https://i.imgur.com/H9c9Req.jpg",
             "https://i.imgur.com/HRf7MUE.jpg"
+        ],
+        "IText": [
+            "",
+            "The installation of the game<br>",
+            "Our ideation process of different mechanics we could implement<br>",
+            "Our simple design document showing<br>       final fabrication and user flow<br>",
+            "An interactive pie with pressure sensors that needed to pressed<br>       in a particular way to progress the game<br>",
+            "Early implementation of our chopping and stirring interactions<br>"
         ]
     },
     {
@@ -64,6 +99,14 @@
             "https://i.imgur.com/xZN26EE.jpg",
             "https://i.imgur.com/SPVaEwr.jpg",
             "https://i.imgur.com/KqjM7CQ.jpg"
+        ],
+        "IText": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
         ]
     },
     {
@@ -73,6 +116,11 @@
             "https://media1.giphy.com/media/jokm2VqAgtY14A1aiU/giphy.gif",
             "https://media1.giphy.com/media/ZdOVeHNu8buM2Cpacc/giphy.gif",
             "https://media3.giphy.com/media/l4p7oCSu7VOIWPXQeU/giphy.gif"
+        ],
+        "IText": [
+            "",
+            "",
+            ""
         ]
     },
     {
@@ -85,6 +133,14 @@
             "https://media0.giphy.com/media/Xy27Wet1a19bQ5lqYW/giphy.gif",
             "https://media2.giphy.com/media/jsNR2hrGiqcvtG6B9W/200w.webp",
             "https://media1.giphy.com/media/igzbVWyw7px95ZRnVh/giphy.webp"
+        ],
+        "IText": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
         ]
     }
 ]

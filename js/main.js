@@ -5,6 +5,7 @@
 
 //arrays for populating page
 fetch('https://mc-gamedeveloper.github.io/portfolio/data/PortfolioContentJSON.json')
+// fetch('data/PortfolioContentJSON.json')
   .then(response => response.json())
   .then(jsonData => 
   {
@@ -45,7 +46,7 @@ fetch('https://mc-gamedeveloper.github.io/portfolio/data/PortfolioContentJSON.js
           workImages[i]=document.createElement('img');
           workImages[i].src = jsonData[thisPage].Images[i];
           workImageLocation.appendChild(workImages[i]);
-          workImageLocation.innerHTML += "<br><br>";
+          workImageLocation.innerHTML += "<span class='image-text-body'><pre><code>       " + jsonData[thisPage].IText[i] + "<br><br></pre></code></span>";
           // workImageLocation.appendChild("<br>");
         }
         //dynamic links for other works
