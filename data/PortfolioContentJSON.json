@@ -24,7 +24,7 @@
         "Body": "For Bully! I was contracted to develop the gesture mechanic of a 3D golf game. In the 2 month contract I developed an android app that hosted a websocket server, and a Unity game that would connect to that server and listen for sensor data. This approach allowed for a quick and seamless user onboarding process. Once connected the phone acted as a controller letting the player click buttons to rotate left/right and move the phone to swing the golf club back and forth. ",
         "Images": [
             "https://media2.giphy.com/media/BraoIcTZPRvZgzTr9O/giphy.gif",
-            "https://media3.giphy.com/media/XnzIpLE85DvYg3Bhsc/giphy.gifm",
+            "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGFmZDI1NGVkZmE2NTIzNTUxMGM0ODMzMTZiMDNhMTlkNzQ1YWZjOSZjdD1n/XnzIpLE85DvYg3Bhsc/giphy.gif",
             "https://media1.giphy.com/media/Pddzco7pnNM8EjK0VD/giphy.gif",
             "https://i.imgur.com/V9QBsGw.png",
             "https://i.imgur.com/ugwrm8m.png"
