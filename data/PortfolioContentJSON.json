@@ -1,5 +1,43 @@
 [
     {
+        "Title": "Kinoo",
+        "Body": "As a Senior Gameplay Engineer at Kinoo, I played a key role in developing a video chatting app that augmented experiences between grandparents and grandchildren. Over the course of two years, I developed seven multiplayer games that facilitated conversation and interest between players. Each game had its own unique design and challenges, such as a Jigsaw puzzle game that would play a video when the puzzle was completed, this project required I create whole new asset data management system that could handle art for hundreds of different puzzles,  and a baking story telling game the incorporated Kinoo's Magic wand controller where I used an array of sensors to read gestures such as stirring, or chopping.\n<br><br>\nTo support our game development, I worked closely with the art team to create art pipelines to streamline asset development, and workflows for developing games with reusable components, which increased production efficiency by 3x and reduced asset development time by 50%. In my time there I mastered many skills including, object-oriented design principles, which I used to create reusable components and improve code maintaibility and scalability, asynchrounous code logic and multiplayer logic which was used to ensure that both players experiences the expected behavior even on the slowest network connection, 3D math to properly calculate the gesture input for the Kinoo Magic wand, and much more.",
+        "Images": [
+            "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzRjYTRlZDU1OGFlMTk4ZWYxMDc0YzkyNzgxOTFhNjE2ZTA0YTAyZiZjdD1n/tyULTDf4Fnd9OwJct1/giphy.gif",
+            "https://i.imgur.com/n5i4e0V.png?1",
+            "https://media4.giphy.com/media/e25aTHGWwesy2T4ad7/giphy.gif",
+            "https://i.imgur.com/qlrax6u.png?1",
+            "https://i.imgur.com/2zgr95P.png",
+            "https://i.imgur.com/HCn9uPE.png?1"
+        ],
+        "IText": [
+            "In this game the player uses the Kinoo Magic Wand<br>       to control the spoon stirring the cookie batter<br>",
+            "In Dot to Dot players walk to a story and<br>       play a connect the dot puzzle at certain points<br>",
+            "Players would shake the Magic Wand to sculpt creatures<br>       that come to live<br>",
+            "We would place the video feed into space suits<br>       to create a Mad-lib style story game<br>",
+            "With one other developer we created an app for both<br>       Android and iOS so that kids could play single player<br>       games with the Magic Wand<br>",
+            "A memory game where players would work together to match cards together<br>"
+        ]
+    },
+    {
+        "Title": "Bully!",
+        "Body": "For Bully! I was contracted to develop the gesture mechanic of a 3D golf game. In the 2 month contract I developed an android app that hosted a websocket server, and a Unity game that would connect to that server and listen for sensor data. This approach allowed for a quick and seamless user onboarding process. Once connected the phone acted as a controller letting the player click buttons to rotate left/right and move the phone to swing the golf club back and forth. ",
+        "Images": [
+            "https://media2.giphy.com/media/BraoIcTZPRvZgzTr9O/giphy.gif",
+            "https://media3.giphy.com/media/XnzIpLE85DvYg3Bhsc/giphy.gifm",
+            "https://media1.giphy.com/media/Pddzco7pnNM8EjK0VD/giphy.gif",
+            "https://i.imgur.com/V9QBsGw.png",
+            "https://i.imgur.com/ugwrm8m.png"
+        ],
+        "IText": [
+            "The gesture mechanic in action<br>",
+            "An early prototype of the phone controlling the Animator<br>",
+            "I helped to improve physics mechanics of the golf ball<br>",
+            "I developed the Android app ui to be intuitive and simple to use<br>",
+            "Once a device is connected the app would automatically<br>       show the controller UI<br>"
+        ]
+    },
+    {
         "Title": "Run Boggo, Run!",
         "Body": "Buzzfeeds first game, Run Boggo Run is an endless runner-style mobile-game. It is up to you to help Boggo escape from the giant Stress Monster and unlock her Chakras!<br><br> I worked with a team of designers, artists, and animators as the sole developer to create this game. Over 10 weeks we worked to release an early access build. In that time I setup version control/review workflows and tools to allow for other teammates to incorporate their work. I also rapidly prototyped and iterated upon in-game mechanics, and features, created custom physics and character controllers, and developed all necessary systems and more. <br><br>After the initial release we rebalanced the game, created more content, created a free version with ads, and optimized the game based on the feedback we received by our players.<br><br><a href = \"https://apps.apple.com/us/app/run-boggo-run-to-nirvana/id1554388600\"target = \"_blank\"><u>iOS Download</u></a> <br><br><a href = \"https://play.google.com/store/apps/details?id=com.BuzzFeed.RunBoggoRunFree&hl=en_US&gl=US\"target = \"_blank\"><u>Android Download</u></a>",
         "Images": [
@@ -84,9 +122,23 @@
             "",
             "The installation of the game<br>",
             "Our ideation process of different mechanics we could implement<br>",
-            "Our simple design document showing<br>       final fabrication and user flow<br>",
-            "An interactive pie with pressure sensors that needed to pressed<br>       in a particular way to progress the game<br>",
+            "Our simple design document showing final fabrication<br>       and user flow<br>",
+            "An interactive pie with pressure sensors that needed to be pressed<br>       in a particular way to progress the game<br>",
             "Early implementation of our chopping and stirring interactions<br>"
+        ]
+    },
+    {
+        "Title": "Ocean Sim Tool",
+        "Body": "This is a project to explore graphics programming, and tool development within Unity. There are currently two parts to this, a day/night cycle that allows you to manipulate the angle of the sun and speed of it's movement. These properties allow a developer to create a more realistic environment and adds realistic lighting for different seasons or latitudes. This is achieved by using trigonometry to properly angle the directional light on a circle opposed to having the sun rise/set on a perfectly vertical path. The other part is a shader that allows the developer the create realistic waves. The Wave shader uses Trochoidal or Gerstner waves to emulate the realism of actual fluid dynamics. Currently in development is a tool for designers to dictate the number of waves, and all other appropriate properties.",
+        "Images": [
+            "https://media1.giphy.com/media/jokm2VqAgtY14A1aiU/giphy.gif",
+            "https://media1.giphy.com/media/ZdOVeHNu8buM2Cpacc/giphy.gif",
+            "https://media3.giphy.com/media/l4p7oCSu7VOIWPXQeU/giphy.gif"
+        ],
+        "IText": [
+            "",
+            "",
+            ""
         ]
     },
     {
@@ -104,20 +156,6 @@
             "",
             "",
             "",
-            "",
-            "",
-            ""
-        ]
-    },
-    {
-        "Title": "Ocean Sim Tool",
-        "Body": "This is a project to explore graphics programming, and tool development within Unity. There are currently two parts to this, a day/night cycle that allows you to manipulate the angle of the sun and speed of it's movement. These properties allow a developer to create a more realistic environment and adds realistic lighting for different seasons or latitudes. This is achieved by using trigonometry to properly angle the directional light on a circle opposed to having the sun rise/set on a perfectly vertical path. The other part is a shader that allows the developer the create realistic waves. The Wave shader uses Trochoidal or Gerstner waves to emulate the realism of actual fluid dynamics. Currently in development is a tool for designers to dictate the number of waves, and all other appropriate properties.",
-        "Images": [
-            "https://media1.giphy.com/media/jokm2VqAgtY14A1aiU/giphy.gif",
-            "https://media1.giphy.com/media/ZdOVeHNu8buM2Cpacc/giphy.gif",
-            "https://media3.giphy.com/media/l4p7oCSu7VOIWPXQeU/giphy.gif"
-        ],
-        "IText": [
             "",
             "",
             ""
